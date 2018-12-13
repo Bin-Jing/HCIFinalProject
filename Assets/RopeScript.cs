@@ -13,21 +13,21 @@ public class RopeScript : MonoBehaviour {
 	void Start () {
         rbody = this.gameObject.GetComponent<Rigidbody>();
         conJoint = this.gameObject.GetComponent<ConfigurableJoint>();
-        canShoot = false;
+        //canShoot = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKey(KeyCode.X) && conJoint.connectedBody == null&&canShoot)
+        if (Input.GetKey(KeyCode.X) && conJoint.connectedBody == null)
         {
             rbody.WakeUp();
             rbody.AddRelativeForce(1000 * Vector3.forward);
             canShoot = false;
         }
-        //if (conJoint.connectedBody == null && !Input.GetKey(KeyCode.X)){
-        //    this.transform.position = startPoint.transform.position;
-        //}
-        if (Input.GetKey(KeyCode.C))
+        if (conJoint.connectedBody == null && !Input.GetKey(KeyCode.X)){
+            this.transform.position = startPoint.transform.position;
+        }
+        if (Input.GetKeyUp(KeyCode.X))
         {
             conJoint.connectedBody = null;
             rbody.Sleep();
@@ -37,7 +37,7 @@ public class RopeScript : MonoBehaviour {
 	}
 	private void OnCollisionEnter(Collision collision)
 	{
-        if(collision.gameObject.tag == "Untagged" && Input.GetKeyDown(KeyCode.X)&&canShoot){
+        if(collision.gameObject.tag == "Untagged" && Input.GetKeyDown(KeyCode.X)){
             conJoint.connectedBody = collision.rigidbody;
             conJoint.xMotion = ConfigurableJointMotion.Limited;
             conJoint.yMotion = ConfigurableJointMotion.Limited;
