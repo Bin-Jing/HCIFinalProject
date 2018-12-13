@@ -24,8 +24,8 @@ public class PlayerController : MonoBehaviour {
         this.transform.eulerAngles += new Vector3(0,100 * Input.GetAxis("Horizontal") * Time.deltaTime,0);
         //Jet
         if(Input.GetKey(KeyCode.Z)){
-            rbody.AddRelativeForce(1000*Vector3.forward*Time.deltaTime);
-            rbody.AddRelativeForce(1000 * Vector3.up * Time.deltaTime);
+            rbody.AddRelativeForce(10000*Vector3.forward*Time.deltaTime);
+            rbody.AddRelativeForce(5000 * Vector3.up * Time.deltaTime);
         }
         //shoot rope
 
