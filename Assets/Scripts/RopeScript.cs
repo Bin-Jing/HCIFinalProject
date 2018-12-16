@@ -9,7 +9,9 @@ public class RopeScript : MonoBehaviour {
     public GameObject startPoint;
     public Rigidbody playerRbody;
     public GameObject player;
+    public NeckDetector ND;
     Vector3 relaPos;
+    public Vector3 NeckPos;
 	// Use this for initialization
 	void Start () {
         rbody = this.gameObject.GetComponent<Rigidbody>();
@@ -26,7 +28,12 @@ public class RopeScript : MonoBehaviour {
         if (Input.GetKey(KeyCode.X))
         {
             rbody.WakeUp();
-            rbody.AddRelativeForce(1000 * Vector3.forward);
+            if(ND.findEnemy){
+                rbody.AddForce(1000 * (NeckPos - startPoint.transform.position));
+            }else{
+                rbody.AddRelativeForce(1000 * Vector3.forward);
+            }
+
         }else{
             this.transform.position = startPoint.transform.position;
         }
@@ -45,15 +52,25 @@ public class RopeScript : MonoBehaviour {
 
         }
         this.transform.eulerAngles = player.transform.eulerAngles;
-        relaPos = this.gameObject.transform.position - startPoint.transform.position;
+        if (ND.findEnemy)
+        {
+            relaPos = NeckPos - startPoint.transform.position;
+        }
+        else{
+            relaPos = this.gameObject.transform.position - startPoint.transform.position;
+        }
+
         if(transform.parent == null && relaPos.magnitude > 0.1f){
-            playerRbody.AddForce(relaPos * 100 * Time.deltaTime);
+            Vector3 offset = Vector3.up * 15;
+            playerRbody.AddForce((relaPos+offset) * 100 * Time.deltaTime);
         }
 
 	}
 	private void OnCollisionEnter(Collision collision)
 	{
-        if(collision.gameObject.tag == "Untagged" && Input.GetKey(KeyCode.X)){
+        if((collision.gameObject.tag == "Untagged" 
+            || collision.gameObject.tag == "Enemy" 
+            || collision.gameObject.tag == "Neck") && Input.GetKey(KeyCode.X)){
             rbody.constraints = RigidbodyConstraints.FreezeAll;
             transform.parent = null;
 
