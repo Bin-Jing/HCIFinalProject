@@ -61,7 +61,7 @@ public class RopeScript : MonoBehaviour {
         }
 
         if(transform.parent == null && relaPos.magnitude > 0.1f){
-            Vector3 offset = Vector3.up * 15;
+            Vector3 offset = Vector3.up * 20;
             playerRbody.AddForce((relaPos+offset) * 100 * Time.deltaTime);
         }
 
