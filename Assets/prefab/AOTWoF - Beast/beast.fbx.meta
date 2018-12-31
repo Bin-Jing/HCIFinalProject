@@ -1,0 +1,1959 @@
+fileFormatVersion: 2
+guid: 8912c7089622b6943a7d295d9f6fbe1b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 40_surface-000-ref-0.001_0.1_16_16.005
+    100002: 40_surface-000-ref-0.003_0.1_16_16.005
+    100004: 40_surface-000-ref-0.005_0.1_16_16.005
+    100006: 40_surface-000-ref-0.014_0.1_16_16.003
+    100008: 40_surface-000-ref-0.024_0.1_16_16.003
+    100010: 40_surface-000-ref-0.025_0.1_16_16.003
+    100012: 40_surface-000-ref-0.026_0.1_16_16.003
+    100014: 40_surface-001-ref-0.002_0.1_16_16.003
+    100016: 40_surface-001-ref-0.008_0.1_16_16.003
+    100018: 40_surface-001-ref-0_0.1_16_16.005
+    100020: 40_surface-002-ref-0_0.1_16_16.005
+    100022: 40_surface-003-ref-0_0.1_16_16.004
+    100024: 40_surface-004-ref-0_0.1_16_16.004
+    100026: 40_surface-005-ref-0_0.1_16_16.004
+    100028: 40_surface-006-ref-0_0.1_16_16.003
+    100030: 40_surface-009-ref-0_0.1_16_16.003
+    100032: 41_surface-000-ref-0_0.1_16_16.003
+    100034: 41_surface-007-ref-0_0.1_16_16.004
+    100036: Armature
+    100038: //RootNode
+    100040: jnt 000
+    100042: jnt 001
+    100044: jnt 002
+    100046: jnt 003
+    100048: jnt 004
+    100050: jnt 005
+    100052: jnt 006
+    100054: jnt 007
+    100056: jnt 008
+    100058: jnt 009
+    100060: jnt 010
+    100062: jnt 011
+    100064: jnt 012
+    100066: jnt 013
+    100068: jnt 014
+    100070: jnt 015
+    100072: jnt 016
+    100074: jnt 017
+    100076: jnt 018
+    100078: jnt 019
+    100080: jnt 020
+    100082: jnt 021
+    100084: jnt 022
+    100086: jnt 023
+    100088: jnt 024
+    100090: jnt 025
+    100092: jnt 026
+    100094: jnt 027
+    100096: jnt 028
+    100098: jnt 029
+    100100: jnt 030
+    100102: jnt 031
+    100104: jnt 032
+    100106: jnt 033
+    100108: jnt 034
+    100110: jnt 035
+    100112: jnt 036
+    100114: jnt 037
+    100116: jnt 038
+    100118: jnt 039
+    100120: jnt 040
+    100122: jnt 041
+    100124: jnt 042
+    100126: jnt 043
+    100128: jnt 044
+    100130: jnt 045
+    100132: jnt 046
+    100134: jnt 047
+    100136: jnt 048
+    100138: jnt 049
+    100140: jnt 050
+    100142: jnt 051
+    100144: jnt 052
+    100146: jnt 053
+    100148: jnt 054
+    100150: jnt 055
+    100152: jnt 056
+    100154: jnt 057
+    100156: jnt 058
+    100158: jnt 059
+    100160: jnt 060
+    100162: jnt 061
+    100164: jnt 062
+    100166: jnt 063
+    100168: jnt 064
+    100170: jnt 065
+    100172: jnt 066
+    100174: jnt 067
+    100176: jnt 068
+    100178: jnt 069
+    100180: jnt 070
+    100182: jnt 071
+    100184: jnt 072
+    100186: jnt 073
+    100188: jnt 074
+    100190: jnt 075
+    100192: jnt 076
+    100194: jnt 077
+    100196: jnt 078
+    100198: jnt 079
+    100200: jnt 080
+    100202: jnt 081
+    100204: jnt 082
+    100206: jnt 083
+    100208: jnt 084
+    100210: jnt 085
+    100212: jnt 086
+    100214: jnt 087
+    100216: jnt 088
+    100218: jnt 089
+    100220: jnt 090
+    100222: jnt 091
+    100224: jnt 092
+    100226: jnt 093
+    100228: jnt 094
+    100230: jnt 095
+    100232: jnt 096
+    100234: jnt 097
+    100236: jnt 098
+    100238: jnt 099
+    100240: jnt 100
+    100242: jnt 101
+    100244: jnt 102
+    100246: jnt 103
+    100248: jnt 104
+    100250: jnt 105
+    100252: jnt 106
+    100254: jnt 107
+    100256: jnt 108
+    100258: jnt 109
+    100260: jnt 110
+    100262: jnt 111
+    100264: jnt 112
+    100266: jnt 113
+    100268: jnt 114
+    100270: jnt 115
+    100272: jnt 116
+    100274: jnt 117
+    100276: jnt 118
+    100278: jnt 119
+    100280: jnt 120
+    100282: jnt 121
+    100284: jnt 122
+    100286: jnt 123
+    100288: jnt 124
+    100290: jnt 125
+    100292: jnt 126
+    100294: jnt 127
+    100296: jnt 128
+    100298: jnt 129
+    100300: jnt 130
+    100302: jnt 131
+    100304: jnt 132
+    100306: jnt 133
+    100308: jnt 134
+    100310: jnt 135
+    100312: jnt 136
+    100314: jnt 137
+    100316: jnt 138
+    100318: jnt 139
+    100320: jnt 140
+    100322: jnt 141
+    100324: jnt 142
+    100326: jnt 143
+    100328: jnt 144
+    100330: jnt 145
+    100332: jnt 146
+    100334: jnt 147
+    100336: jnt 148
+    100338: jnt 149
+    100340: jnt 150
+    100342: jnt 151
+    100344: jnt 152
+    100346: jnt 153
+    100348: jnt 154
+    100350: jnt 155
+    100352: jnt 156
+    100354: jnt 157
+    100356: jnt 158
+    100358: jnt 159
+    100360: jnt 160
+    100362: jnt 161
+    100364: jnt 162
+    100366: jnt 163
+    100368: jnt 164
+    100370: jnt 165
+    100372: jnt 166
+    100374: jnt 167
+    100376: jnt 168
+    100378: jnt 169
+    100380: jnt 170
+    100382: jnt 171
+    100384: jnt 172
+    100386: jnt 173
+    100388: jnt 174
+    100390: skeleton 00  obje.001
+    100392: surface 000 ref 0.026
+    400000: 40_surface-000-ref-0.001_0.1_16_16.005
+    400002: 40_surface-000-ref-0.003_0.1_16_16.005
+    400004: 40_surface-000-ref-0.005_0.1_16_16.005
+    400006: 40_surface-000-ref-0.014_0.1_16_16.003
+    400008: 40_surface-000-ref-0.024_0.1_16_16.003
+    400010: 40_surface-000-ref-0.025_0.1_16_16.003
+    400012: 40_surface-000-ref-0.026_0.1_16_16.003
+    400014: 40_surface-001-ref-0.002_0.1_16_16.003
+    400016: 40_surface-001-ref-0.008_0.1_16_16.003
+    400018: 40_surface-001-ref-0_0.1_16_16.005
+    400020: 40_surface-002-ref-0_0.1_16_16.005
+    400022: 40_surface-003-ref-0_0.1_16_16.004
+    400024: 40_surface-004-ref-0_0.1_16_16.004
+    400026: 40_surface-005-ref-0_0.1_16_16.004
+    400028: 40_surface-006-ref-0_0.1_16_16.003
+    400030: 40_surface-009-ref-0_0.1_16_16.003
+    400032: 41_surface-000-ref-0_0.1_16_16.003
+    400034: 41_surface-007-ref-0_0.1_16_16.004
+    400036: Armature
+    400038: //RootNode
+    400040: jnt 000
+    400042: jnt 001
+    400044: jnt 002
+    400046: jnt 003
+    400048: jnt 004
+    400050: jnt 005
+    400052: jnt 006
+    400054: jnt 007
+    400056: jnt 008
+    400058: jnt 009
+    400060: jnt 010
+    400062: jnt 011
+    400064: jnt 012
+    400066: jnt 013
+    400068: jnt 014
+    400070: jnt 015
+    400072: jnt 016
+    400074: jnt 017
+    400076: jnt 018
+    400078: jnt 019
+    400080: jnt 020
+    400082: jnt 021
+    400084: jnt 022
+    400086: jnt 023
+    400088: jnt 024
+    400090: jnt 025
+    400092: jnt 026
+    400094: jnt 027
+    400096: jnt 028
+    400098: jnt 029
+    400100: jnt 030
+    400102: jnt 031
+    400104: jnt 032
+    400106: jnt 033
+    400108: jnt 034
+    400110: jnt 035
+    400112: jnt 036
+    400114: jnt 037
+    400116: jnt 038
+    400118: jnt 039
+    400120: jnt 040
+    400122: jnt 041
+    400124: jnt 042
+    400126: jnt 043
+    400128: jnt 044
+    400130: jnt 045
+    400132: jnt 046
+    400134: jnt 047
+    400136: jnt 048
+    400138: jnt 049
+    400140: jnt 050
+    400142: jnt 051
+    400144: jnt 052
+    400146: jnt 053
+    400148: jnt 054
+    400150: jnt 055
+    400152: jnt 056
+    400154: jnt 057
+    400156: jnt 058
+    400158: jnt 059
+    400160: jnt 060
+    400162: jnt 061
+    400164: jnt 062
+    400166: jnt 063
+    400168: jnt 064
+    400170: jnt 065
+    400172: jnt 066
+    400174: jnt 067
+    400176: jnt 068
+    400178: jnt 069
+    400180: jnt 070
+    400182: jnt 071
+    400184: jnt 072
+    400186: jnt 073
+    400188: jnt 074
+    400190: jnt 075
+    400192: jnt 076
+    400194: jnt 077
+    400196: jnt 078
+    400198: jnt 079
+    400200: jnt 080
+    400202: jnt 081
+    400204: jnt 082
+    400206: jnt 083
+    400208: jnt 084
+    400210: jnt 085
+    400212: jnt 086
+    400214: jnt 087
+    400216: jnt 088
+    400218: jnt 089
+    400220: jnt 090
+    400222: jnt 091
+    400224: jnt 092
+    400226: jnt 093
+    400228: jnt 094
+    400230: jnt 095
+    400232: jnt 096
+    400234: jnt 097
+    400236: jnt 098
+    400238: jnt 099
+    400240: jnt 100
+    400242: jnt 101
+    400244: jnt 102
+    400246: jnt 103
+    400248: jnt 104
+    400250: jnt 105
+    400252: jnt 106
+    400254: jnt 107
+    400256: jnt 108
+    400258: jnt 109
+    400260: jnt 110
+    400262: jnt 111
+    400264: jnt 112
+    400266: jnt 113
+    400268: jnt 114
+    400270: jnt 115
+    400272: jnt 116
+    400274: jnt 117
+    400276: jnt 118
+    400278: jnt 119
+    400280: jnt 120
+    400282: jnt 121
+    400284: jnt 122
+    400286: jnt 123
+    400288: jnt 124
+    400290: jnt 125
+    400292: jnt 126
+    400294: jnt 127
+    400296: jnt 128
+    400298: jnt 129
+    400300: jnt 130
+    400302: jnt 131
+    400304: jnt 132
+    400306: jnt 133
+    400308: jnt 134
+    400310: jnt 135
+    400312: jnt 136
+    400314: jnt 137
+    400316: jnt 138
+    400318: jnt 139
+    400320: jnt 140
+    400322: jnt 141
+    400324: jnt 142
+    400326: jnt 143
+    400328: jnt 144
+    400330: jnt 145
+    400332: jnt 146
+    400334: jnt 147
+    400336: jnt 148
+    400338: jnt 149
+    400340: jnt 150
+    400342: jnt 151
+    400344: jnt 152
+    400346: jnt 153
+    400348: jnt 154
+    400350: jnt 155
+    400352: jnt 156
+    400354: jnt 157
+    400356: jnt 158
+    400358: jnt 159
+    400360: jnt 160
+    400362: jnt 161
+    400364: jnt 162
+    400366: jnt 163
+    400368: jnt 164
+    400370: jnt 165
+    400372: jnt 166
+    400374: jnt 167
+    400376: jnt 168
+    400378: jnt 169
+    400380: jnt 170
+    400382: jnt 171
+    400384: jnt 172
+    400386: jnt 173
+    400388: jnt 174
+    400390: skeleton 00  obje.001
+    400392: surface 000 ref 0.026
+    2100000: 41_surface-007-ref-0_0.1_16_16.004
+    2100002: 41_surface-000-ref-0_0.1_16_16.003
+    2100004: 40_surface-009-ref-0_0.1_16_16.003
+    2100006: 40_surface-006-ref-0_0.1_16_16.003
+    2100008: 40_surface-005-ref-0_0.1_16_16.004
+    2100010: 40_surface-004-ref-0_0.1_16_16.004
+    2100012: 40_surface-003-ref-0_0.1_16_16.004
+    2100014: 40_surface-002-ref-0_0.1_16_16.005
+    2100016: 40_surface-001-ref-0_0.1_16_16.005
+    2100018: 40_surface-001-ref-0.008_0.1_16_16.003
+    2100020: 40_surface-001-ref-0.002_0.1_16_16.003
+    2100022: 40_surface-000-ref-0.026_0.1_16_16.003
+    2100024: 40_surface-000-ref-0.025_0.1_16_16.003
+    2100026: 40_surface-000-ref-0.024_0.1_16_16.003
+    2100028: 40_surface-000-ref-0.014_0.1_16_16.003
+    2100030: 40_surface-000-ref-0.005_0.1_16_16.005
+    2100032: 40_surface-000-ref-0.003_0.1_16_16.005
+    2100034: 40_surface-000-ref-0.001_0.1_16_16.005
+    4300000: 41_surface-007-ref-0_0.1_16_16.004
+    4300002: 41_surface-000-ref-0_0.1_16_16.003
+    4300004: 40_surface-009-ref-0_0.1_16_16.003
+    4300006: 40_surface-006-ref-0_0.1_16_16.003
+    4300008: 40_surface-005-ref-0_0.1_16_16.004
+    4300010: 40_surface-004-ref-0_0.1_16_16.004
+    4300012: 40_surface-003-ref-0_0.1_16_16.004
+    4300014: 40_surface-002-ref-0_0.1_16_16.005
+    4300016: 40_surface-001-ref-0_0.1_16_16.005
+    4300018: 40_surface-001-ref-0.008_0.1_16_16.003
+    4300020: 40_surface-001-ref-0.002_0.1_16_16.003
+    4300022: 40_surface-000-ref-0.026_0.1_16_16.003
+    4300024: 40_surface-000-ref-0.025_0.1_16_16.003
+    4300026: 40_surface-000-ref-0.024_0.1_16_16.003
+    4300028: 40_surface-000-ref-0.014_0.1_16_16.003
+    4300030: 40_surface-000-ref-0.005_0.1_16_16.005
+    4300032: 40_surface-000-ref-0.003_0.1_16_16.005
+    4300034: 40_surface-000-ref-0.001_0.1_16_16.005
+    9500000: //RootNode
+    13700000: 40_surface-000-ref-0.001_0.1_16_16.005
+    13700002: 40_surface-000-ref-0.003_0.1_16_16.005
+    13700004: 40_surface-000-ref-0.005_0.1_16_16.005
+    13700006: 40_surface-000-ref-0.014_0.1_16_16.003
+    13700008: 40_surface-000-ref-0.024_0.1_16_16.003
+    13700010: 40_surface-000-ref-0.025_0.1_16_16.003
+    13700012: 40_surface-000-ref-0.026_0.1_16_16.003
+    13700014: 40_surface-001-ref-0.002_0.1_16_16.003
+    13700016: 40_surface-001-ref-0.008_0.1_16_16.003
+    13700018: 40_surface-001-ref-0_0.1_16_16.005
+    13700020: 40_surface-002-ref-0_0.1_16_16.005
+    13700022: 40_surface-003-ref-0_0.1_16_16.004
+    13700024: 40_surface-004-ref-0_0.1_16_16.004
+    13700026: 40_surface-005-ref-0_0.1_16_16.004
+    13700028: 40_surface-006-ref-0_0.1_16_16.003
+    13700030: 40_surface-009-ref-0_0.1_16_16.003
+    13700032: 41_surface-000-ref-0_0.1_16_16.003
+    13700034: 41_surface-007-ref-0_0.1_16_16.004
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: jnt 001
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 007
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 008
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 009
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 010
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 011
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 012
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 002
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 004
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 005
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 015
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 016
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 017
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 018
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 019
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 020
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 021
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 022
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 013
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 014
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 103
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 102
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 120
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 052
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 054
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 056
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 028
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 030
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 032
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 034
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 036
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 038
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 040
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 042
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 044
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 046
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 048
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 050
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 053
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 055
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 057
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 029
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 031
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 033
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 035
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 037
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 039
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 041
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 043
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 045
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 047
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 049
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 051
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 003
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: beast(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 40_surface-000-ref-0.001_0.1_16_16.005
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-000-ref-0.003_0.1_16_16.005
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-000-ref-0.005_0.1_16_16.005
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-000-ref-0.014_0.1_16_16.003
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-000-ref-0.024_0.1_16_16.003
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-000-ref-0.025_0.1_16_16.003
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-000-ref-0.026_0.1_16_16.003
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-001-ref-0.002_0.1_16_16.003
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-001-ref-0.008_0.1_16_16.003
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-001-ref-0_0.1_16_16.005
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-002-ref-0_0.1_16_16.005
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-003-ref-0_0.1_16_16.004
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-004-ref-0_0.1_16_16.004
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-005-ref-0_0.1_16_16.004
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-006-ref-0_0.1_16_16.003
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 40_surface-009-ref-0_0.1_16_16.003
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 41_surface-000-ref-0_0.1_16_16.003
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: 41_surface-007-ref-0_0.1_16_16.004
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Armature
+      parentName: beast(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: skeleton 00  obje.001
+      parentName: Armature
+      position: {x: -0, y: 0.0002341175, z: 0.00000000512983}
+      rotation: {x: 0, y: 0, z: 1, w: 0.00000004371139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 000
+      parentName: skeleton 00  obje.001
+      position: {x: -4.25e-19, y: 0, z: 0.019933965}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 001
+      parentName: jnt 000
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5115476, y: 0.51154774, z: 0.48817933, w: 0.48817918}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: jnt 002
+      parentName: jnt 001
+      position: {x: 2.7473482e-10, y: 0.00421604, z: -0.00019720425}
+      rotation: {x: -0.023368243, y: -0.000000052680274, z: -0.000000032994286, w: 0.99972695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 003
+      parentName: jnt 002
+      position: {x: 4.7739587e-16, y: 0.0060386606, z: -1.6466132e-11}
+      rotation: {x: -0.027807629, y: -0.000000008602608, z: -0.0000000052247797, w: 0.9996133}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 004
+      parentName: jnt 003
+      position: {x: -1.7639433e-10, y: 0.007952164, z: 0.00077288557}
+      rotation: {x: 0.46722946, y: -0.00000027197166, z: -0.0000002758512, w: 0.88413614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 005
+      parentName: jnt 004
+      position: {x: -5.026932e-10, y: 0.001622529, z: -0.0007252746}
+      rotation: {x: 0.03171836, y: 0.0003852162, z: 0.00011790569, w: 0.99949676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 025
+      parentName: jnt 005
+      position: {x: -4.457287e-10, y: 9.681111e-10, z: -0.0000000010786255}
+      rotation: {x: 0.99999994, y: -0.0000002868769, z: 0.0004169505, w: 0.00000007561749}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: jnt 094
+      parentName: jnt 005
+      position: {x: 0.00000035553805, y: 0.0020150603, z: -0.00019584791}
+      rotation: {x: -0.19744822, y: -0.00058355724, z: -0.00024091016, w: 0.9803131}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
+    - name: jnt 095
+      parentName: jnt 005
+      position: {x: -0.0005598599, y: 0.002018365, z: -0.00027876394}
+      rotation: {x: -0.41612715, y: 0.6002861, z: 0.1629499, w: 0.6632813}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: jnt 096
+      parentName: jnt 005
+      position: {x: -0.00030857426, y: 0.0020606937, z: -0.00024766065}
+      rotation: {x: -0.2984436, y: 0.45526525, z: 0.123590626, w: 0.8296929}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: jnt 097
+      parentName: jnt 005
+      position: {x: -0.00077914714, y: 0.0019434586, z: -0.00038653813}
+      rotation: {x: -0.51613516, y: 0.6045144, z: 0.1640572, w: 0.58416784}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999999}
+    - name: jnt 098
+      parentName: jnt 005
+      position: {x: 0.00055920094, y: 0.002018236, z: -0.00027807607}
+      rotation: {x: -0.4157442, y: -0.600096, z: -0.1632451, w: 0.6636208}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999994}
+    - name: jnt 099
+      parentName: jnt 005
+      position: {x: 0.000308741, y: 0.002060623, z: -0.00024728375}
+      rotation: {x: -0.2983007, y: -0.45533141, z: -0.1238574, w: 0.8296682}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: jnt 100
+      parentName: jnt 005
+      position: {x: 0.00078007515, y: 0.0019432774, z: -0.00038557756}
+      rotation: {x: -0.51612896, y: -0.6047816, z: -0.16456026, w: 0.58375514}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: jnt 101
+      parentName: jnt 005
+      position: {x: 0.0000009516628, y: 0.00081524637, z: -0.0013910338}
+      rotation: {x: -0.85625935, y: -0.00011856313, z: -0.00038926478, w: 0.516546}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: jnt 102
+      parentName: jnt 005
+      position: {x: 0.0005064008, y: 0.0015988355, z: -0.000040181156}
+      rotation: {x: 0.9572023, y: -0.00392744, z: -0.00066812005, w: -0.28939235}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: jnt 104
+      parentName: jnt 102
+      position: {x: 0.0000012158584, y: 0.000013728584, z: 0.00010657625}
+      rotation: {x: 0.9101986, y: -0.0042761164, z: -0.019794533, w: 0.41367665}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: jnt 110
+      parentName: jnt 102
+      position: {x: -0.00005337047, y: 0.00040362056, z: -0.000004722061}
+      rotation: {x: -0.008084342, y: 0.0025430645, z: 0.0888047, w: 0.996013}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: jnt 111
+      parentName: jnt 102
+      position: {x: -0.00016961183, y: -0.000009258753, z: -0.00001644392}
+      rotation: {x: -0.13269308, y: 0.025244774, z: 0.87397605, w: 0.4668202}
+      scale: {x: 0.99999964, y: 0.99999994, z: 1}
+    - name: jnt 112
+      parentName: jnt 102
+      position: {x: 0.00020889558, y: 0.00008499913, z: 0.000029550545}
+      rotation: {x: 0.08068553, y: -0.02119318, z: -0.7381478, w: 0.66946137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 113
+      parentName: jnt 102
+      position: {x: 0.000012870963, y: 0.000040865638, z: -0.000114961025}
+      rotation: {x: -0.85910594, y: 0.0007525258, z: -0.09748746, w: 0.5024267}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: jnt 103
+      parentName: jnt 005
+      position: {x: -0.0005059782, y: 0.0015989513, z: -0.00004080287}
+      rotation: {x: 0.95716506, y: 0.008755278, z: 0.0027783164, w: -0.28939712}
+      scale: {x: 0.9999999, y: 1, z: 1.0000005}
+    - name: jnt 105
+      parentName: jnt 103
+      position: {x: -0.0000013224408, y: 0.0000137202205, z: 0.000106574014}
+      rotation: {x: 0.909896, y: 0.009136342, z: 0.031400636, w: 0.41354537}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999976}
+    - name: jnt 106
+      parentName: jnt 103
+      position: {x: 0.000049348342, y: 0.00040413154, z: -0.000004755224}
+      rotation: {x: -0.008107105, y: -0.0023961833, z: -0.08211761, w: 0.9965868}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: jnt 107
+      parentName: jnt 103
+      position: {x: 0.00016969432, y: -0.0000075696225, z: -0.00001647929}
+      rotation: {x: 0.13344632, y: 0.0258804, z: 0.8722062, w: -0.46987084}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: jnt 108
+      parentName: jnt 103
+      position: {x: -0.00020972366, y: 0.000082917024, z: 0.000029608535}
+      rotation: {x: 0.08016237, y: 0.021696031, z: 0.74135727, w: 0.66595244}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: jnt 109
+      parentName: jnt 103
+      position: {x: -0.000007996764, y: 0.000040826963, z: -0.00011496426}
+      rotation: {x: -0.8622759, y: -0.0058345664, z: 0.07006766, w: 0.5015344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 114
+      parentName: jnt 005
+      position: {x: -0.0009858824, y: 0.0013505273, z: 0.00008636896}
+      rotation: {x: 0.75438243, y: -0.6281879, z: -0.17039129, w: -0.0851697}
+      scale: {x: 0.9999997, y: 0.99999946, z: 0.99999994}
+    - name: jnt 115
+      parentName: jnt 005
+      position: {x: -0.00022080478, y: 0.0016531819, z: 0.00025120654}
+      rotation: {x: -0.5611987, y: 0.69747543, z: 0.18929972, w: -0.40342242}
+      scale: {x: 0.9999998, y: 0.99999976, z: 1}
+    - name: jnt 116
+      parentName: jnt 005
+      position: {x: 0.0009860889, y: 0.0013502971, z: 0.00008758338}
+      rotation: {x: 0.754295, y: 0.62815917, z: 0.1710121, w: -0.084911875}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.9999999}
+    - name: jnt 117
+      parentName: jnt 005
+      position: {x: 0.00022087846, y: 0.0016531312, z: 0.00025147785}
+      rotation: {x: 0.56118596, y: 0.69755095, z: 0.18978831, w: 0.40307987}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.99999994}
+    - name: jnt 118
+      parentName: jnt 005
+      position: {x: 0.0006518364, y: 0.0013275621, z: 0.00062922004}
+      rotation: {x: 0.7739138, y: 0.5135989, z: 0.13988943, w: 0.34308103}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.9999998}
+    - name: jnt 119
+      parentName: jnt 005
+      position: {x: -0.0006536357, y: 0.0013277159, z: 0.00062841363}
+      rotation: {x: 0.7738919, y: -0.51419884, z: -0.13940696, w: 0.3424275}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: jnt 120
+      parentName: jnt 005
+      position: {x: -0.0000002787273, y: 0.0014879811, z: 0.00073376234}
+      rotation: {x: -0.78892267, y: -0.00015510475, z: -0.0003711165, w: 0.6144925}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: jnt 121
+      parentName: jnt 120
+      position: {x: 0.00025808418, y: 0.00020459504, z: -2.434343e-10}
+      rotation: {x: -0.27301842, y: -0.27301848, z: -0.6522739, w: 0.65227354}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: jnt 122
+      parentName: jnt 120
+      position: {x: -0.00025808415, y: 0.0002045953, z: -3.5262074e-10}
+      rotation: {x: -0.27301845, y: 0.27301848, z: 0.6522735, w: 0.65227383}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: jnt 123
+      parentName: jnt 005
+      position: {x: 0.000000086836735, y: 0.00007483341, z: -0.00012752404}
+      rotation: {x: 0.44221357, y: 0.00008158954, z: 0.00020656709, w: 0.8969098}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: jnt 124
+      parentName: jnt 123
+      position: {x: 0.0009932945, y: 0.00081692147, z: 0.00042492984}
+      rotation: {x: 0.8108823, y: 0.49981663, z: -0.09713219, w: 0.28847653}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: jnt 125
+      parentName: jnt 123
+      position: {x: -0.000992962, y: 0.00081654574, z: 0.0004230045}
+      rotation: {x: 0.81096536, y: -0.49975723, z: 0.09793676, w: 0.28807363}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: jnt 126
+      parentName: jnt 123
+      position: {x: -0.00014192262, y: 0.00173772, z: -0.00018169863}
+      rotation: {x: -0.07905789, y: 0.94692767, z: -0.18483469, w: -0.25082663}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: jnt 127
+      parentName: jnt 123
+      position: {x: -0.0005504126, y: 0.0014897906, z: 0.000035833928}
+      rotation: {x: -0.4928755, y: 0.7976567, z: -0.15591232, w: -0.31065875}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: jnt 128
+      parentName: jnt 123
+      position: {x: -0.0003479982, y: 0.001662851, z: -0.00013889874}
+      rotation: {x: -0.28037566, y: 0.92526656, z: -0.18070884, w: -0.18059793}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: jnt 129
+      parentName: jnt 123
+      position: {x: 0.00014161553, y: 0.0017377737, z: -0.00018142379}
+      rotation: {x: 0.078564085, y: 0.94657636, z: -0.18468688, w: 0.2524116}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: jnt 130
+      parentName: jnt 123
+      position: {x: 0.00054934854, y: 0.0014899652, z: 0.000036816513}
+      rotation: {x: 0.492593, y: 0.79754835, z: -0.15539558, w: 0.31164244}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: jnt 131
+      parentName: jnt 123
+      position: {x: 0.0003493454, y: 0.0016629639, z: -0.0001382681}
+      rotation: {x: 0.2812727, y: 0.9249651, z: -0.18036726, w: 0.18108821}
+      scale: {x: 1, y: 0.9999997, z: 0.99999994}
+    - name: jnt 132
+      parentName: jnt 123
+      position: {x: -0.00000030480615, y: 0.0015394405, z: 0.000014580762}
+      rotation: {x: 0.02144456, y: -0.0020195441, z: 0.00040490757, w: 0.99976796}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: jnt 134
+      parentName: jnt 123
+      position: {x: 0.00000075430506, y: -0.0015581122, z: -0.00047394107}
+      rotation: {x: 0.085392065, y: -0.00058887684, z: 0.00015788378, w: 0.99634725}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: jnt 137
+      parentName: jnt 134
+      position: {x: 0.000000101348995, y: 0.0031898362, z: 0.00008445386}
+      rotation: {x: 0.83270365, y: 0.0005021909, z: -0.00024407955, w: 0.5537186}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: jnt 138
+      parentName: jnt 134
+      position: {x: 0.00000007574954, y: 0.0031473765, z: -0.000023566898}
+      rotation: {x: 0.9892268, y: 0.0005097435, z: -0.00026516558, w: -0.14638993}
+      scale: {x: 1.0000001, y: 1, z: 0.9999971}
+    - name: jnt 139
+      parentName: jnt 134
+      position: {x: 0.00000009432202, y: 0.0030808256, z: 0.000085663756}
+      rotation: {x: 0.9643918, y: 0.00024042187, z: -0.00018522405, w: 0.26447734}
+      scale: {x: 1, y: 1.0000001, z: 1.0000007}
+    - name: jnt 140
+      parentName: jnt 134
+      position: {x: -0.00034110772, y: 0.003259355, z: -0.000013895791}
+      rotation: {x: -0.63925606, y: 0.7148741, z: -0.20411547, w: -0.19657971}
+      scale: {x: 1, y: 1.0000006, z: 1}
+    - name: jnt 141
+      parentName: jnt 134
+      position: {x: -0.00013703067, y: 0.003319973, z: -0.00005941587}
+      rotation: {x: -0.4131524, y: 0.8686477, z: -0.24806586, w: -0.114976734}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: jnt 142
+      parentName: jnt 134
+      position: {x: 0.00013713702, y: 0.0033199554, z: -0.00005947714}
+      rotation: {x: 0.4133395, y: 0.86855775, z: -0.2481402, w: 0.114823535}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: jnt 143
+      parentName: jnt 134
+      position: {x: 0.00034072998, y: 0.0032594998, z: -0.000013742992}
+      rotation: {x: 0.6389954, y: 0.7148997, z: -0.20427726, w: 0.19716537}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: jnt 144
+      parentName: jnt 134
+      position: {x: 0.00000027672033, y: 0.0033561294, z: 0.0002806045}
+      rotation: {x: 0.5372717, y: 0.00050387497, z: -0.00020885612, w: 0.8434091}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: jnt 135
+      parentName: jnt 123
+      position: {x: -0.00055046636, y: 0.0014999378, z: 0.000089020046}
+      rotation: {x: -0.49018857, y: 0.7699545, z: -0.1505049, w: -0.3797809}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: jnt 136
+      parentName: jnt 123
+      position: {x: 0.00054970826, y: 0.0015001164, z: 0.0000900148}
+      rotation: {x: 0.4900447, y: 0.76971275, z: -0.14996456, w: 0.38066924}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: jnt 133
+      parentName: jnt 005
+      position: {x: -0.00000045493098, y: 0.0011254392, z: 0.0009512684}
+      rotation: {x: 0.8385823, y: -0.000040521572, z: 0.00033866364, w: 0.5447749}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: jnt 006
+      parentName: jnt 004
+      position: {x: 5.026898e-10, y: 0.001398563, z: 0.00072527974}
+      rotation: {x: 0.7591415, y: 0.0000001820436, z: -0.00000031385466, w: 0.65092564}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: jnt 145
+      parentName: jnt 004
+      position: {x: -7.2913786e-10, y: -0.0007282514, z: -0.0015590672}
+      rotation: {x: 0.95410234, y: 0.0000000052378106, z: -0.0000004628928, w: -0.29948092}
+      scale: {x: 1, y: 1, z: 0.9999989}
+    - name: jnt 015
+      parentName: jnt 003
+      position: {x: -0.0014090198, y: 0.004750049, z: 0.00026448257}
+      rotation: {x: -0.48590305, y: 0.48590273, z: 0.5137107, w: 0.51371014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 017
+      parentName: jnt 015
+      position: {x: 2.6309439e-11, y: 0.005837365, z: -1.3338059e-11}
+      rotation: {x: 1.02712006e-10, y: -0.000000061467276, z: -0.0000000013969701,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 019
+      parentName: jnt 017
+      position: {x: 1.862595e-11, y: 0.010631914, z: -4.3607784e-11}
+      rotation: {x: 0.00041768755, y: -0.00041768755, z: -0.00000017446291, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: jnt 021
+      parentName: jnt 019
+      position: {x: -0.000000008658605, y: 0.012415614, z: -0.000010365196}
+      rotation: {x: 0.033046786, y: -0.03293263, z: 0.13663623, w: 0.9895221}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: jnt 023
+      parentName: jnt 021
+      position: {x: 0.00035359964, y: 0.0013443325, z: -0.00047214483}
+      rotation: {x: -0.29313692, y: 0.33971867, z: -0.60441387, w: 0.6582901}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: jnt 026
+      parentName: jnt 021
+      position: {x: 0.00010515949, y: 0.000340089, z: 0.00014530862}
+      rotation: {x: -0.03455556, y: 0.019217879, z: -0.33715367, w: 0.940619}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: jnt 040
+      parentName: jnt 026
+      position: {x: -0.00023639768, y: 0.0016485852, z: 0.000071010516}
+      rotation: {x: -0.0058630183, y: 0.0058631236, z: 0.20560145, w: 0.9786007}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: jnt 042
+      parentName: jnt 040
+      position: {x: 1.0389618e-11, y: 0.0008773001, z: -0.0000000034206575}
+      rotation: {x: -0.00000005247354, y: 9.3131836e-10, z: 0.000000035472237, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 044
+      parentName: jnt 042
+      position: {x: -1.5598025e-11, y: 0.0006607885, z: -0.0000000023243665}
+      rotation: {x: -1.3123455e-16, y: -3.5411576e-15, z: -6.3945826e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 046
+      parentName: jnt 026
+      position: {x: 0.00023639738, y: 0.0016568783, z: -0.000071010596}
+      rotation: {x: -0.0058630197, y: 0.0058631236, z: 0.20560147, w: 0.9786007}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: jnt 048
+      parentName: jnt 046
+      position: {x: -1.1011187e-10, y: 0.00076454936, z: -0.0000000033455438}
+      rotation: {x: -0.000000052268508, y: 9.313241e-10, z: 0.000000020292578, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 050
+      parentName: jnt 048
+      position: {x: -1.1052854e-10, y: 0.0006235902, z: -0.0000000022908981}
+      rotation: {x: -7.130245e-16, y: -1.8823588e-16, z: -2.5439635e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 028
+      parentName: jnt 021
+      position: {x: -0.000019253343, y: 0.0020089208, z: 0.00013720997}
+      rotation: {x: -0.03340303, y: 0.03340301, z: -0.1366361, w: 0.9894944}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: jnt 030
+      parentName: jnt 028
+      position: {x: -3.4073365e-12, y: 0.0009722694, z: -0.0000000029771163}
+      rotation: {x: 8.881786e-16, y: 0.000000009313223, z: 0.000000017229468, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 032
+      parentName: jnt 030
+      position: {x: 1.8290923e-16, y: 0.00070331176, z: -0.0000000029467668}
+      rotation: {x: 1.7763568e-15, y: -8.005749e-16, z: -1.3877553e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 034
+      parentName: jnt 021
+      position: {x: 0.00053770933, y: 0.0020792147, z: 0.00009776826}
+      rotation: {x: -0.033403035, y: 0.033403013, z: -0.13663608, w: 0.9894944}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: jnt 036
+      parentName: jnt 034
+      position: {x: 1.5072886e-11, y: 0.000997639, z: -0.0000000030562912}
+      rotation: {x: 8.8817837e-16, y: 0.000000007450575, z: 0.0000000023283042, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 038
+      parentName: jnt 036
+      position: {x: 1.8626545e-11, y: 0.0007487204, z: -0.0000000030145884}
+      rotation: {x: 8.881784e-16, y: -8.066461e-16, z: -2.3869787e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 052
+      parentName: jnt 021
+      position: {x: -0.000623615, y: 0.00071792497, z: -0.00038028686}
+      rotation: {x: -0.17203997, y: 0.5554039, z: 0.18767238, w: 0.7916488}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: jnt 054
+      parentName: jnt 052
+      position: {x: -0.0000000035762786, y: 0.00082537456, z: 5.2154064e-10}
+      rotation: {x: -0.000047866255, y: 0.00010579266, z: -0.000041713938, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 056
+      parentName: jnt 054
+      position: {x: -0.0000000012665987, y: 0.0007336537, z: 0.000000001490116}
+      rotation: {x: -0.00000004470349, y: 0.000000054016716, z: -0.00000005587936,
+        w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: jnt 088
+      parentName: jnt 019
+      position: {x: 0.000000017633253, y: 0.000000028171135, z: 0.000021106534}
+      rotation: {x: -0.00083348155, y: 0.0016688904, z: 0.9999983, w: -0.0000055986475}
+      scale: {x: 1, y: 0.9999998, z: 1.0000055}
+    - name: jnt 089
+      parentName: jnt 019
+      position: {x: -0.0000000020311586, y: 0.0029186888, z: -0.0000024317017}
+      rotation: {x: 0.0011918893, y: -0.00035651747, z: 0.9999992, w: 0.0000005004274}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: jnt 090
+      parentName: jnt 019
+      position: {x: -0.0000000069475936, y: 0.009963784, z: -0.000008316999}
+      rotation: {x: -0.0011422853, y: 0.0011422588, z: -0.0000003503672, w: 0.9999987}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: jnt 084
+      parentName: jnt 017
+      position: {x: 1.8625951e-11, y: 0.0038244864, z: -4.3607784e-11}
+      rotation: {x: -3.5527128e-15, y: 2.2204445e-16, z: 1, w: -0.00000004371139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 085
+      parentName: jnt 017
+      position: {x: 1.862595e-11, y: 0.008856695, z: -4.3607784e-11}
+      rotation: {x: -2.2204459e-16, y: -3.5527128e-15, z: -2.19378e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 016
+      parentName: jnt 003
+      position: {x: 0.0014090189, y: 0.004750049, z: 0.00026448222}
+      rotation: {x: -0.48590392, y: -0.48590267, z: -0.51371056, w: 0.5137095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 018
+      parentName: jnt 016
+      position: {x: -4.9414405e-12, y: 0.005837367, z: 2.9605865e-10}
+      rotation: {x: 0.0000009701954, y: 0.0000010549222, z: -6.548443e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 020
+      parentName: jnt 018
+      position: {x: -1.2799453e-11, y: 0.01063192, z: -0.0000000032155218}
+      rotation: {x: -0.00041708778, y: -0.00041708778, z: 0.00000017383425, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: jnt 022
+      parentName: jnt 020
+      position: {x: 0.0000000086173575, y: 0.012415606, z: 0.00001035012}
+      rotation: {x: 0.03490041, y: 0.03501761, z: -0.14059712, w: 0.98883176}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: jnt 024
+      parentName: jnt 022
+      position: {x: -0.0003632374, y: 0.001340389, z: -0.0004760195}
+      rotation: {x: -0.288758, y: -0.3368077, z: 0.5852672, w: 0.67870593}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: jnt 027
+      parentName: jnt 022
+      position: {x: -0.000108223925, y: 0.00033956964, z: 0.00014428994}
+      rotation: {x: -0.03593843, y: -0.020084456, z: 0.3409, w: 0.93919766}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: jnt 041
+      parentName: jnt 027
+      position: {x: 0.00023639592, y: 0.0016485718, z: 0.000071003284}
+      rotation: {x: -0.005861218, y: -0.005861314, z: -0.20560203, w: 0.9786006}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: jnt 043
+      parentName: jnt 041
+      position: {x: -1.1211671e-11, y: 0.0008773006, z: -7.4513135e-10}
+      rotation: {x: -0.000000052473485, y: -4.656603e-10, z: 0.0000000036433074, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 045
+      parentName: jnt 043
+      position: {x: -3.432973e-11, y: 0.0006607985, z: 3.5667838e-10}
+      rotation: {x: -5.9814714e-17, y: 3.64105e-16, z: -1.0838505e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 047
+      parentName: jnt 027
+      position: {x: -0.0002363957, y: 0.0016568756, z: -0.00007100461}
+      rotation: {x: -0.0058612213, y: -0.0058613145, z: -0.20560203, w: 0.9786006}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: jnt 049
+      parentName: jnt 047
+      position: {x: 1.3293966e-10, y: 0.0007645498, z: -0.0000000030373897}
+      rotation: {x: -0.000000052268458, y: 4.6565818e-10, z: 0.0000000039218104, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 051
+      parentName: jnt 049
+      position: {x: 6.084658e-11, y: 0.00062359066, z: -0.0000000019794806}
+      rotation: {x: -9.191023e-17, y: -2.909019e-15, z: 1.2496616e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 029
+      parentName: jnt 022
+      position: {x: 0.0000028409436, y: 0.0020093145, z: 0.00013270022}
+      rotation: {x: -0.034546737, y: -0.034546696, z: 0.14059693, w: 0.9888607}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: jnt 031
+      parentName: jnt 029
+      position: {x: 4.1337492e-11, y: 0.0009722781, z: -0.0000000018201228}
+      rotation: {x: -0.000000052452513, y: -0.000000009313229, z: -0.00000000415014,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 033
+      parentName: jnt 031
+      position: {x: 1.2847575e-11, y: 0.00070331205, z: -0.0000000030298004}
+      rotation: {x: 0.00000005245252, y: -1.6829388e-15, z: -9.721366e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 035
+      parentName: jnt 022
+      position: {x: -0.0005133565, y: 0.0019318087, z: 0.00010346089}
+      rotation: {x: -0.03455081, y: -0.034552105, z: 0.14059705, w: 0.9888604}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: jnt 037
+      parentName: jnt 035
+      position: {x: 1.0152234e-11, y: 0.0009976192, z: -0.0000000035022907}
+      rotation: {x: 0.0000047741214, y: 0.000004772095, z: -0.000000075754926, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 039
+      parentName: jnt 037
+      position: {x: -4.16784e-12, y: 0.00074872933, z: -0.000000003416434}
+      rotation: {x: 5.4442067e-18, y: 9.098848e-13, z: -4.1314058e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 053
+      parentName: jnt 022
+      position: {x: 0.0006187435, y: 0.0007220421, z: -0.00038044888}
+      rotation: {x: -0.16841553, y: -0.55795056, z: -0.186658, w: 0.7908769}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: jnt 055
+      parentName: jnt 053
+      position: {x: -0.000000001117587, y: 0.0008253832, z: 9.313226e-10}
+      rotation: {x: 0.000007539987, y: 0.00001602806, z: -0.0000060051675, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: jnt 057
+      parentName: jnt 055
+      position: {x: 0.000000001490116, y: 0.0007336593, z: -0.0000000017136335}
+      rotation: {x: 0.000000014901161, y: 0.0000000037252903, z: -0.000000035390258,
+        w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: jnt 091
+      parentName: jnt 020
+      position: {x: -0.000000017610695, y: 0.000000009608509, z: -0.000021102916}
+      rotation: {x: -0.0008342669, y: -0.0016681043, z: 0.9999983, w: 0.0000055979926}
+      scale: {x: 1, y: 0.99999976, z: 1.0000055}
+    - name: jnt 092
+      parentName: jnt 020
+      position: {x: 0.0000000020137907, y: 0.0029186811, z: 0.000002430931}
+      rotation: {x: 0.001191222, y: 0.00035730298, z: 0.9999992, w: -0.0000005011252}
+      scale: {x: 1, y: 0.99999976, z: 1.0000002}
+    - name: jnt 093
+      parentName: jnt 020
+      position: {x: 0.0000000069125097, y: 0.009963776, z: 0.0000083056175}
+      rotation: {x: 0.0011415001, y: 0.0011415051, z: 0.00000035159104, w: 0.9999987}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: jnt 086
+      parentName: jnt 018
+      position: {x: -1.2800095e-11, y: 0.0038244815, z: -0.0000000011269696}
+      rotation: {x: -0.00000045546147, y: -2.2103874e-14, z: 1, w: -0.00000004371139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 087
+      parentName: jnt 018
+      position: {x: -1.2799621e-11, y: 0.0088566905, z: -0.0000000026708737}
+      rotation: {x: -0.0000012514381, y: -0.0000012514379, z: 1.1826347e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 078
+      parentName: jnt 003
+      position: {x: -0.002214173, y: 0.0076700775, z: -0.0006487939}
+      rotation: {x: -0.17450131, y: 0.2606904, z: 0.27560943, w: 0.90864146}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: jnt 079
+      parentName: jnt 003
+      position: {x: -0.0009496359, y: 0.0030325407, z: -0.0032653566}
+      rotation: {x: -0.84486455, y: 0.0897102, z: 0.09484433, w: 0.5188069}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: jnt 080
+      parentName: jnt 003
+      position: {x: -0.0010064419, y: 0.0018342991, z: 0.0032632267}
+      rotation: {x: 0.87546635, y: -0.2250567, z: -0.23793657, w: 0.35537928}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 081
+      parentName: jnt 003
+      position: {x: 0.0009496358, y: 0.003032541, z: -0.0032653564}
+      rotation: {x: -0.84486455, y: -0.08971023, z: -0.09484412, w: 0.5188069}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: jnt 082
+      parentName: jnt 003
+      position: {x: 0.0010064428, y: 0.0018342994, z: 0.0032632267}
+      rotation: {x: 0.87546647, y: 0.22505668, z: 0.23793623, w: 0.35537916}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: jnt 083
+      parentName: jnt 003
+      position: {x: 0.002214173, y: 0.0076700756, z: -0.0006487946}
+      rotation: {x: -0.17450137, y: -0.26069054, z: -0.2756094, w: 0.90864146}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: jnt 064
+      parentName: jnt 002
+      position: {x: 4.2109816e-10, y: -0.00090925617, z: 0.0045713037}
+      rotation: {x: 0.9579667, y: -0.000000012020645, z: -0.0000001283854, w: 0.28687945}
+      scale: {x: 1, y: 0.99999994, z: 0.99999934}
+    - name: jnt 077
+      parentName: jnt 002
+      position: {x: 3.449905e-10, y: 0.0006499629, z: 0.0032509991}
+      rotation: {x: 0.96339095, y: -0.000000005703117, z: -0.000000122727, w: 0.2681005}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: jnt 007
+      parentName: jnt 001
+      position: {x: -0.0031292748, y: -0.0000063936222, z: 0.00000029926372}
+      rotation: {x: 0.9997301, y: -0.0010467393, z: -0.0009695923, w: 0.023188177}
+      scale: {x: 1, y: 1, z: 1.0000324}
+    - name: jnt 009
+      parentName: jnt 007
+      position: {x: -0.000012199474, y: 0.009293992, z: 0.000002208276}
+      rotation: {x: -0.00017899553, y: 0.0010568504, z: -0.0010568697, w: 0.99999887}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: jnt 011
+      parentName: jnt 009
+      position: {x: 0.00002176037, y: 0.008624112, z: 0.0000000028033023}
+      rotation: {x: -0.4829108, y: -0.00008571463, z: 0.000024806928, w: 0.8756696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 013
+      parentName: jnt 011
+      position: {x: -2.7992525e-10, y: 0.0030897367, z: 1.372095e-10}
+      rotation: {x: -0.000000029802326, y: -8.8037416e-10, z: -0.0000000042236845,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: jnt 073
+      parentName: jnt 009
+      position: {x: -0.000021102898, y: -0.0000000050962545, z: -0.000000002732078}
+      rotation: {x: 0.99999446, y: -0.0022904638, z: 0.002411911, w: 0.0000052105106}
+      scale: {x: 1.0039449, y: 1, z: 0.99999994}
+    - name: jnt 074
+      parentName: jnt 009
+      position: {x: -0.00000065707263, y: 0.005222992, z: -9.1406056e-11}
+      rotation: {x: 0.00000022268586, y: -0.0005410606, z: 0.0005411026, w: 0.9999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 067
+      parentName: jnt 007
+      position: {x: 0.0000025713227, y: 0.0012913771, z: -0.000000464872}
+      rotation: {x: 0.99999726, y: 0.00031281044, z: -0.0023164293, w: -0.00017649448}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: jnt 068
+      parentName: jnt 007
+      position: {x: 0.000009628897, y: 0.004843009, z: -0.0000017433689}
+      rotation: {x: 0.999703, y: 0.016102644, z: -0.018108156, w: -0.0026155792}
+      scale: {x: 0.99992615, y: 1, z: 0.99999774}
+    - name: jnt 008
+      parentName: jnt 001
+      position: {x: 0.0031292748, y: -0.0000063932325, z: 0.000000299111}
+      rotation: {x: 0.9997301, y: 0.0010491806, z: 0.00096973154, w: 0.023188174}
+      scale: {x: 1, y: 1, z: 1.0000349}
+    - name: jnt 010
+      parentName: jnt 008
+      position: {x: 0.000012191585, y: 0.00929399, z: 0.0000022082468}
+      rotation: {x: -0.00017647207, y: -0.0025805389, z: 0.002581119, w: 0.9999933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 012
+      parentName: jnt 010
+      position: {x: 0.0000045233974, y: 0.008624142, z: -0.000000014389297}
+      rotation: {x: -0.48291093, y: 0.0021554495, z: -0.00062289217, w: 0.8756666}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: jnt 014
+      parentName: jnt 012
+      position: {x: 3.504518e-10, y: 0.0030897334, z: -1.1015231e-10}
+      rotation: {x: -0.000000029801534, y: 0.000000024212458, z: 0.0000000042871378,
+        w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: jnt 075
+      parentName: jnt 010
+      position: {x: -0.00002110166, y: 0.00000006792644, z: 0.0000000670184}
+      rotation: {x: 0.999997, y: -0.0022901357, z: -0.00088187534, w: 0.0000052084465}
+      scale: {x: 1.0037528, y: 1.0000001, z: 1}
+    - name: jnt 076
+      parentName: jnt 010
+      position: {x: 0.000016576954, y: 0.0052229716, z: -0.00000005268065}
+      rotation: {x: 0.0001428582, y: 0.013644348, z: -0.01364499, w: 0.9998138}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: jnt 071
+      parentName: jnt 008
+      position: {x: -0.0000025673696, y: 0.0012913762, z: -0.00000046493076}
+      rotation: {x: 0.99999726, y: -0.00031219487, z: 0.0023159373, w: -0.00017649606}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: jnt 072
+      parentName: jnt 008
+      position: {x: -0.000009626627, y: 0.0048430082, z: -0.0000017434032}
+      rotation: {x: 0.99970305, y: -0.016097829, z: 0.0181055, w: -0.0026157098}
+      scale: {x: 0.99991214, y: 1.0000001, z: 0.99999714}
+    - name: jnt 065
+      parentName: jnt 001
+      position: {x: -0.0020047866, y: 0.0001914508, z: -0.00022018602}
+      rotation: {x: 0.75958055, y: -0.42222145, z: -0.40293366, w: -0.28707302}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: jnt 066
+      parentName: jnt 001
+      position: {x: -0.0035832445, y: 0.0022250807, z: 0.00031848985}
+      rotation: {x: -0.35906208, y: 0.5190927, z: 0.49537972, w: 0.5968385}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: jnt 069
+      parentName: jnt 001
+      position: {x: 0.0020047866, y: 0.00019145105, z: -0.00022018614}
+      rotation: {x: 0.75958055, y: 0.42222145, z: 0.4029336, w: -0.2870731}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: jnt 070
+      parentName: jnt 001
+      position: {x: 0.0035832445, y: 0.0022250812, z: 0.0003184896}
+      rotation: {x: -0.35906205, y: -0.51909274, z: -0.49537963, w: 0.5968386}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999999}
+    - name: jnt 058
+      parentName: jnt 000
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 059
+      parentName: jnt 000
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 060
+      parentName: jnt 000
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 061
+      parentName: jnt 000
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 062
+      parentName: jnt 000
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 063
+      parentName: jnt 000
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 146
+      parentName: jnt 000
+      position: {x: -0, y: 0, z: -0.019933963}
+      rotation: {x: -0.49999997, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999999}
+    - name: jnt 147
+      parentName: jnt 000
+      position: {x: 0.00015460014, y: -0.0003125814, z: -0.018245736}
+      rotation: {x: -0.5020398, y: -0.5020398, z: 0.5064784, w: 0.48927668}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: jnt 148
+      parentName: jnt 000
+      position: {x: 0.00015460014, y: -0.0003125814, z: -0.018245736}
+      rotation: {x: 0.087309755, y: 0.08730928, z: -0.029077021, w: 0.9919217}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: jnt 149
+      parentName: jnt 148
+      position: {x: -0.00035068332, y: 0.0035784172, z: -0.001883245}
+      rotation: {x: -0.26464474, y: -0.25705934, z: 0.12995844, w: 0.9203231}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: jnt 150
+      parentName: jnt 148
+      position: {x: 0.001997154, y: -0.002588253, z: 0.000003184639}
+      rotation: {x: -0.21641971, y: -0.059082665, z: 0.93962765, w: -0.25840205}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000001}
+    - name: jnt 151
+      parentName: jnt 148
+      position: {x: 0.0015781864, y: -0.0017537829, z: 0.0020332425}
+      rotation: {x: 0.1698016, y: 0.3444043, z: 0.906206, w: -0.17704178}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: jnt 152
+      parentName: jnt 148
+      position: {x: 0.0004954149, y: 0.0032381825, z: -0.00036866593}
+      rotation: {x: -0.082882725, y: -0.10418854, z: -0.08987967, w: 0.9870141}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: jnt 153
+      parentName: jnt 148
+      position: {x: 0.0005203911, y: 0.0036100997, z: 0.0014027279}
+      rotation: {x: 0.23894045, y: 0.24921638, z: -0.022916738, w: 0.93822896}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: jnt 154
+      parentName: jnt 148
+      position: {x: -0.0023435974, y: -0.0008487867, z: 0.00077980815}
+      rotation: {x: -0.006026463, y: 0.1531638, z: 0.8797766, w: 0.44999743}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: jnt 155
+      parentName: jnt 148
+      position: {x: -0.001489054, y: 0.0026099312, z: -0.0013757269}
+      rotation: {x: -0.21589531, y: -0.16681376, z: 0.3425323, w: 0.8990184}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: jnt 156
+      parentName: jnt 148
+      position: {x: -0.0019595958, y: 0.0035367687, z: -0.0019635134}
+      rotation: {x: -0.21617551, y: -0.17183521, z: 0.3164818, w: 0.90751314}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: jnt 157
+      parentName: jnt 148
+      position: {x: -0.00041212974, y: 0.0038383661, z: 0.00065854273}
+      rotation: {x: 0.096414655, y: 0.116281316, z: 0.077432424, w: 0.9854883}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: jnt 158
+      parentName: jnt 148
+      position: {x: 0.000350827, y: 0.0005501579, z: 0.00012489954}
+      rotation: {x: 0.01705166, y: 0.17552131, z: 0.8681198, w: -0.4639716}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: jnt 159
+      parentName: jnt 148
+      position: {x: 0.00066615164, y: -0.0007122942, z: -0.00028025982}
+      rotation: {x: -0.29660285, y: -0.146193, z: 0.9281362, w: -0.17093156}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: jnt 160
+      parentName: jnt 148
+      position: {x: 0.00083465426, y: -0.0011890949, z: -0.0012912375}
+      rotation: {x: -0.44929668, y: -0.32563064, z: 0.83152986, w: -0.02559889}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: jnt 161
+      parentName: jnt 148
+      position: {x: 0.0001844664, y: 0.0019116228, z: -0.00074203056}
+      rotation: {x: -0.28984696, y: -0.3032023, z: 0.02288545, w: 0.9074874}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: jnt 162
+      parentName: jnt 148
+      position: {x: -0.00059665495, y: 0.0046070055, z: -0.0004790128}
+      rotation: {x: -0.057827607, y: -0.046914898, z: 0.07942816, w: 0.9940554}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: jnt 163
+      parentName: jnt 148
+      position: {x: -0.0018019761, y: 0.0019529739, z: 0.0015757305}
+      rotation: {x: 0.19025092, y: 0.29100183, z: 0.49217573, w: 0.7980512}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jnt 164
+      parentName: jnt 148
+      position: {x: -0.0031053668, y: 0.0017648079, z: 0.00028947703}
+      rotation: {x: -0.013220219, y: 0.09294279, z: 0.58978045, w: 0.80208844}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: jnt 165
+      parentName: jnt 148
+      position: {x: 0.0013010324, y: -0.00387627, z: 0.0005662211}
+      rotation: {x: -0.12930162, y: 0.04071761, z: 0.98054934, w: -0.14193746}
+      scale: {x: 0.99999917, y: 0.9999999, z: 0.9999998}
+    - name: jnt 166
+      parentName: jnt 148
+      position: {x: -0.0020614674, y: 0.0011055854, z: -0.0021011764}
+      rotation: {x: -0.31262234, y: -0.22489074, z: 0.5878607, w: 0.71141493}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.9999999}
+    - name: jnt 167
+      parentName: jnt 148
+      position: {x: -0.0017392596, y: -0.00202866, z: -0.00085676205}
+      rotation: {x: -0.22123343, y: -0.06621102, z: 0.92846555, w: 0.29090142}
+      scale: {x: 0.9999996, y: 0.99999994, z: 0.9999999}
+    - name: jnt 168
+      parentName: jnt 148
+      position: {x: 0.0024279132, y: -0.0014582202, z: -0.0007472552}
+      rotation: {x: -0.40834025, y: -0.28534, z: 0.8142123, w: -0.2981571}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: jnt 169
+      parentName: jnt 148
+      position: {x: 0.0028700174, y: -0.0008244464, z: 0.00024042203}
+      rotation: {x: -0.23180905, y: -0.09533799, z: 0.8296996, w: -0.49877238}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: jnt 170
+      parentName: jnt 148
+      position: {x: -0.001270553, y: 0.0042065373, z: 0.0008354134}
+      rotation: {x: 0.08982379, y: 0.12902601, z: 0.18624318, w: 0.96984404}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: jnt 171
+      parentName: jnt 148
+      position: {x: 0.0023051798, y: 0.002162358, z: -0.00076154975}
+      rotation: {x: -0.39121273, y: -0.47166014, z: -0.3133, w: 0.7254877}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: jnt 172
+      parentName: jnt 148
+      position: {x: -0.00086522783, y: -0.0018518327, z: 0.0019570093}
+      rotation: {x: 0.112216935, y: 0.28861663, z: 0.935285, w: 0.17131796}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000006}
+    - name: jnt 173
+      parentName: jnt 148
+      position: {x: 0.00041851884, y: -0.0037173228, z: 0.0010079994}
+      rotation: {x: -0.06897781, y: 0.106494844, z: 0.99049205, w: -0.053164214}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.000002}
+    - name: jnt 174
+      parentName: jnt 148
+      position: {x: 0.0020456575, y: 0.0021882257, z: 0.0013757551}
+      rotation: {x: 0.4517081, y: 0.4398453, z: -0.2158471, w: 0.745591}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.9999998}
+    - name: surface 000 ref 0.026
+      parentName: skeleton 00  obje.001
+      position: {x: -0, y: 0, z: 0.019950666}
+      rotation: {x: -0.00000005482258, y: 0.6151829, z: 0.78838444, w: -0.000000052984287}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

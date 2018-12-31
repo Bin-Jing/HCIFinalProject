@@ -1,0 +1,6 @@
+HCIFinalProject.sln
+Library/
+Temp/
+obj/
+*.csproj
+.vs/
