@@ -7,7 +7,7 @@ public class NeckDetector : MonoBehaviour {
     float rayDistance = 500f;
     float[] rayAngles = new float[10];
     string[] detectableObjects = { "Untagged", "Neck" , "Enemy"};
-    public RopeScript[] ropeS;
+    public RopeScript ropeS;
     public bool findEnemy = false;
 	// Use this for initialization
 	void Start () {
@@ -34,10 +34,7 @@ public class NeckDetector : MonoBehaviour {
                 GameObject hitItm = rayPer.GetHitObj()[i];
                 Transform Neck = hitItm.transform.Find("Neck");
                 Vector3 offset = Vector3.up * 20;
-                for (int j = 0; j < ropeS.Length; j++)
-                {
-                    ropeS[j].NeckPos = Neck.position+offset;
-                }
+                ropeS.NeckPos = Neck.position+offset;
             }
         }
 
