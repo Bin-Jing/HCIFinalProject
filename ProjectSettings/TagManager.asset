@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Neck
   - Enemy
+  - Weapon
   layers:
   - Default
   - TransparentFX

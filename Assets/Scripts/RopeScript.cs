@@ -52,17 +52,20 @@ public class RopeScript : MonoBehaviour {
 
         }
         this.transform.eulerAngles = player.transform.eulerAngles;
-        if (ND.findEnemy)
+        if (this.transform.parent != null&&(ND.findEnemy || this.transform.parent.CompareTag("Enemy")))
         {
+            if(this.transform.parent.CompareTag("Enemy")){
+                NeckPos = this.transform.parent.Find("Neck").position;
+            }
             relaPos = NeckPos - startPoint.transform.position;
         }
         else{
-            relaPos = this.gameObject.transform.position - startPoint.transform.position;
+            relaPos = this.gameObject.transform.localPosition - startPoint.transform.position;
         }
 
-        if(transform.parent == null && relaPos.magnitude > 0.1f){
+        if((transform.parent == null||transform.parent.tag == "Enemy") && relaPos.magnitude > 1f){
             Vector3 offset = Vector3.up * 20;
-            playerRbody.AddForce((relaPos+offset) * 100 * Time.deltaTime);
+            playerRbody.AddForce((relaPos+offset) * 150 * Time.deltaTime);
         }
 
 	}
@@ -73,7 +76,14 @@ public class RopeScript : MonoBehaviour {
             || collision.gameObject.tag == "Neck") && Input.GetKey(KeyCode.X)){
             rbody.constraints = RigidbodyConstraints.FreezeAll;
             transform.parent = null;
+            if(collision.gameObject.tag == "Enemy"|| collision.gameObject.tag == "Neck"){
+                if(collision.gameObject.GetComponent<EnemyHealth>().getHealth() > 0){
+                    transform.parent = collision.transform;
+                }else{
+                    transform.parent = null;
+                }
 
+            }
             //conJoint.connectedBody = collision.rigidbody;
             //relaPos = this.gameObject.transform.position - startPoint.transform.position;
             //conJoint.xMotion = ConfigurableJointMotion.Limited;
