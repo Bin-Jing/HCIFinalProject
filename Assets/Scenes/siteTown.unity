@@ -320,9 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9981a3227bf44e1a7881e58c3a19e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ropeS:
-  - {fileID: 1193978241}
-  - {fileID: 1532990112}
+  ropeS: {fileID: 0}
   findEnemy: 0
 --- !u!114 &29432969
 MonoBehaviour:

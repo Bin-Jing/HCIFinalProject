@@ -1,0 +1,691 @@
+fileFormatVersion: 2
+guid: 100647f4e2780e04c9814d73765e834f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 4_surface-000-ref-0.002_0.1_16_16
+    100002: Armature
+    100004: blend root
+    100006: //RootNode
+    100008: jnt 000
+    100010: jnt 001
+    100012: jnt 002
+    100014: jnt 003
+    100016: jnt 004
+    100018: jnt 005
+    100020: jnt 006
+    100022: jnt 006_end
+    100024: jnt 007
+    100026: jnt 008
+    100028: jnt 009
+    100030: jnt 010
+    100032: jnt 011
+    100034: jnt 012
+    100036: jnt 013
+    100038: jnt 013_end
+    100040: jnt 014
+    100042: jnt 014_end
+    100044: jnt 015
+    100046: jnt 016
+    100048: jnt 017
+    100050: jnt 018
+    100052: jnt 019
+    100054: jnt 020
+    100056: jnt 021
+    100058: jnt 022
+    100060: jnt 023
+    100062: jnt 023_end
+    100064: jnt 024
+    100066: jnt 024_end
+    100068: jnt 025
+    100070: jnt 025_end
+    100072: jnt 026
+    100074: jnt 027
+    100076: jnt 028
+    100078: jnt 029
+    100080: jnt 030
+    100082: jnt 031
+    100084: jnt 032
+    100086: jnt 032_end
+    100088: jnt 033
+    100090: jnt 033_end
+    100092: jnt 034
+    100094: jnt 035
+    100096: jnt 036
+    100098: jnt 037
+    100100: jnt 038
+    100102: jnt 038_end
+    100104: jnt 039
+    100106: jnt 039_end
+    100108: jnt 040
+    100110: jnt 041
+    100112: jnt 042
+    100114: jnt 043
+    100116: jnt 044
+    100118: jnt 044_end
+    100120: jnt 045
+    100122: jnt 045_end
+    100124: jnt 046
+    100126: jnt 047
+    100128: jnt 048
+    100130: jnt 049
+    100132: jnt 050
+    100134: jnt 050_end
+    100136: jnt 051
+    100138: jnt 051_end
+    100140: jnt 052
+    100142: jnt 053
+    100144: jnt 054
+    100146: jnt 055
+    100148: jnt 056
+    100150: jnt 056_end
+    100152: jnt 057
+    100154: jnt 057_end
+    100156: jnt 058
+    100158: jnt 058_end
+    100160: jnt 059
+    100162: jnt 059_end
+    100164: jnt 060
+    100166: jnt 060_end
+    100168: jnt 061
+    100170: jnt 061_end
+    100172: jnt 062
+    100174: jnt 062_end
+    100176: jnt 063
+    100178: jnt 063_end
+    100180: jnt 064
+    100182: jnt 064_end
+    100184: jnt 065
+    100186: jnt 065_end
+    100188: jnt 066
+    100190: jnt 066_end
+    100192: jnt 067
+    100194: jnt 067_end
+    100196: jnt 068
+    100198: jnt 068_end
+    100200: jnt 069
+    100202: jnt 069_end
+    100204: jnt 070
+    100206: jnt 070_end
+    100208: jnt 071
+    100210: jnt 071_end
+    100212: jnt 072
+    100214: jnt 072_end
+    100216: jnt 073
+    100218: jnt 073_end
+    100220: jnt 074
+    100222: jnt 074_end
+    100224: jnt 075
+    100226: jnt 075_end
+    100228: jnt 076
+    100230: jnt 076_end
+    100232: jnt 077
+    100234: jnt 077_end
+    100236: jnt 078
+    100238: jnt 078_end
+    100240: jnt 079
+    100242: jnt 079_end
+    100244: jnt 080
+    100246: jnt 080_end
+    100248: jnt 081
+    100250: jnt 081_end
+    100252: jnt 082
+    100254: jnt 082_end
+    100256: jnt 083
+    100258: jnt 083_end
+    100260: jnt 084
+    100262: jnt 084_end
+    100264: jnt 085
+    100266: jnt 085_end
+    100268: jnt 086
+    100270: jnt 086_end
+    100272: jnt 087
+    100274: jnt 087_end
+    100276: jnt 088
+    100278: jnt 088_end
+    100280: jnt 089
+    100282: jnt 089_end
+    100284: jnt 090
+    100286: jnt 090_end
+    100288: jnt 091
+    100290: jnt 091_end
+    100292: jnt 092
+    100294: jnt 092_end
+    100296: jnt 093
+    100298: jnt 093_end
+    100300: jnt 094
+    100302: jnt 094_end
+    100304: jnt 095
+    100306: jnt 095_end
+    100308: jnt 096
+    100310: jnt 096_end
+    100312: jnt 097
+    100314: jnt 097_end
+    100316: jnt 098
+    100318: jnt 098_end
+    100320: jnt 099
+    100322: jnt 099_end
+    100324: jnt 100
+    100326: jnt 100_end
+    100328: jnt 101
+    100330: jnt 101_end
+    100332: jnt 102
+    100334: jnt 103
+    100336: jnt 104
+    100338: jnt 104_end
+    100340: jnt 105
+    100342: jnt 105_end
+    100344: jnt 106
+    100346: jnt 106_end
+    100348: jnt 107
+    100350: jnt 107_end
+    100352: jnt 108
+    100354: jnt 108_end
+    100356: jnt 109
+    100358: jnt 109_end
+    100360: jnt 110
+    100362: jnt 110_end
+    100364: jnt 111
+    100366: jnt 111_end
+    100368: jnt 112
+    100370: jnt 112_end
+    100372: jnt 113
+    100374: jnt 113_end
+    100376: jnt 114
+    100378: jnt 114_end
+    100380: jnt 115
+    100382: jnt 115_end
+    100384: jnt 116
+    100386: jnt 116_end
+    100388: jnt 117
+    100390: jnt 117_end
+    100392: jnt 118
+    100394: jnt 118_end
+    100396: jnt 119
+    100398: jnt 119_end
+    100400: jnt 120
+    100402: jnt 121
+    100404: jnt 121_end
+    100406: jnt 122
+    100408: jnt 122_end
+    100410: jnt 123
+    100412: jnt 124
+    100414: jnt 124_end
+    100416: jnt 125
+    100418: jnt 125_end
+    100420: jnt 126
+    100422: jnt 126_end
+    100424: jnt 127
+    100426: jnt 127_end
+    100428: jnt 128
+    100430: jnt 128_end
+    100432: jnt 129
+    100434: jnt 129_end
+    100436: jnt 130
+    100438: jnt 130_end
+    100440: jnt 131
+    100442: jnt 131_end
+    100444: jnt 132
+    100446: jnt 132_end
+    100448: jnt 133
+    100450: jnt 133_end
+    100452: jnt 134
+    100454: jnt 135
+    100456: jnt 135_end
+    100458: jnt 136
+    100460: jnt 136_end
+    100462: jnt 137
+    100464: jnt 137_end
+    100466: jnt 138
+    100468: jnt 138_end
+    100470: jnt 139
+    100472: jnt 139_end
+    100474: jnt 140
+    100476: jnt 140_end
+    100478: jnt 141
+    100480: jnt 141_end
+    100482: jnt 142
+    100484: jnt 142_end
+    100486: jnt 143
+    100488: jnt 143_end
+    100490: jnt 144
+    100492: jnt 144_end
+    100494: jnt 145
+    100496: jnt 145_end
+    100498: jnt 146
+    100500: jnt 146_end
+    100502: jnt 147
+    100504: jnt 147_end
+    100506: jnt 148
+    100508: jnt 148_end
+    100510: jnt 149
+    100512: jnt 149_end
+    100514: jnt 150
+    100516: jnt 150_end
+    100518: jnt 151
+    100520: jnt 151_end
+    100522: jnt 152
+    100524: jnt 152_end
+    100526: jnt 153
+    100528: jnt 153_end
+    100530: jnt 154
+    100532: jnt 154_end
+    100534: jnt 155
+    100536: jnt 155_end
+    100538: jnt 156
+    100540: jnt 156_end
+    100542: jnt 157
+    100544: jnt 157_end
+    100546: jnt 158
+    100548: jnt 158_end
+    100550: jnt 159
+    100552: jnt 159_end
+    100554: jnt 160
+    100556: jnt 160_end
+    100558: jnt 161
+    100560: jnt 161_end
+    100562: jnt 162
+    100564: jnt 162_end
+    100566: skeleton 00  object
+    100568: surface 000 ref 0.011
+    100570: surface 000 ref 0.011_end
+    400000: 4_surface-000-ref-0.002_0.1_16_16
+    400002: Armature
+    400004: blend root
+    400006: //RootNode
+    400008: jnt 000
+    400010: jnt 001
+    400012: jnt 002
+    400014: jnt 003
+    400016: jnt 004
+    400018: jnt 005
+    400020: jnt 006
+    400022: jnt 006_end
+    400024: jnt 007
+    400026: jnt 008
+    400028: jnt 009
+    400030: jnt 010
+    400032: jnt 011
+    400034: jnt 012
+    400036: jnt 013
+    400038: jnt 013_end
+    400040: jnt 014
+    400042: jnt 014_end
+    400044: jnt 015
+    400046: jnt 016
+    400048: jnt 017
+    400050: jnt 018
+    400052: jnt 019
+    400054: jnt 020
+    400056: jnt 021
+    400058: jnt 022
+    400060: jnt 023
+    400062: jnt 023_end
+    400064: jnt 024
+    400066: jnt 024_end
+    400068: jnt 025
+    400070: jnt 025_end
+    400072: jnt 026
+    400074: jnt 027
+    400076: jnt 028
+    400078: jnt 029
+    400080: jnt 030
+    400082: jnt 031
+    400084: jnt 032
+    400086: jnt 032_end
+    400088: jnt 033
+    400090: jnt 033_end
+    400092: jnt 034
+    400094: jnt 035
+    400096: jnt 036
+    400098: jnt 037
+    400100: jnt 038
+    400102: jnt 038_end
+    400104: jnt 039
+    400106: jnt 039_end
+    400108: jnt 040
+    400110: jnt 041
+    400112: jnt 042
+    400114: jnt 043
+    400116: jnt 044
+    400118: jnt 044_end
+    400120: jnt 045
+    400122: jnt 045_end
+    400124: jnt 046
+    400126: jnt 047
+    400128: jnt 048
+    400130: jnt 049
+    400132: jnt 050
+    400134: jnt 050_end
+    400136: jnt 051
+    400138: jnt 051_end
+    400140: jnt 052
+    400142: jnt 053
+    400144: jnt 054
+    400146: jnt 055
+    400148: jnt 056
+    400150: jnt 056_end
+    400152: jnt 057
+    400154: jnt 057_end
+    400156: jnt 058
+    400158: jnt 058_end
+    400160: jnt 059
+    400162: jnt 059_end
+    400164: jnt 060
+    400166: jnt 060_end
+    400168: jnt 061
+    400170: jnt 061_end
+    400172: jnt 062
+    400174: jnt 062_end
+    400176: jnt 063
+    400178: jnt 063_end
+    400180: jnt 064
+    400182: jnt 064_end
+    400184: jnt 065
+    400186: jnt 065_end
+    400188: jnt 066
+    400190: jnt 066_end
+    400192: jnt 067
+    400194: jnt 067_end
+    400196: jnt 068
+    400198: jnt 068_end
+    400200: jnt 069
+    400202: jnt 069_end
+    400204: jnt 070
+    400206: jnt 070_end
+    400208: jnt 071
+    400210: jnt 071_end
+    400212: jnt 072
+    400214: jnt 072_end
+    400216: jnt 073
+    400218: jnt 073_end
+    400220: jnt 074
+    400222: jnt 074_end
+    400224: jnt 075
+    400226: jnt 075_end
+    400228: jnt 076
+    400230: jnt 076_end
+    400232: jnt 077
+    400234: jnt 077_end
+    400236: jnt 078
+    400238: jnt 078_end
+    400240: jnt 079
+    400242: jnt 079_end
+    400244: jnt 080
+    400246: jnt 080_end
+    400248: jnt 081
+    400250: jnt 081_end
+    400252: jnt 082
+    400254: jnt 082_end
+    400256: jnt 083
+    400258: jnt 083_end
+    400260: jnt 084
+    400262: jnt 084_end
+    400264: jnt 085
+    400266: jnt 085_end
+    400268: jnt 086
+    400270: jnt 086_end
+    400272: jnt 087
+    400274: jnt 087_end
+    400276: jnt 088
+    400278: jnt 088_end
+    400280: jnt 089
+    400282: jnt 089_end
+    400284: jnt 090
+    400286: jnt 090_end
+    400288: jnt 091
+    400290: jnt 091_end
+    400292: jnt 092
+    400294: jnt 092_end
+    400296: jnt 093
+    400298: jnt 093_end
+    400300: jnt 094
+    400302: jnt 094_end
+    400304: jnt 095
+    400306: jnt 095_end
+    400308: jnt 096
+    400310: jnt 096_end
+    400312: jnt 097
+    400314: jnt 097_end
+    400316: jnt 098
+    400318: jnt 098_end
+    400320: jnt 099
+    400322: jnt 099_end
+    400324: jnt 100
+    400326: jnt 100_end
+    400328: jnt 101
+    400330: jnt 101_end
+    400332: jnt 102
+    400334: jnt 103
+    400336: jnt 104
+    400338: jnt 104_end
+    400340: jnt 105
+    400342: jnt 105_end
+    400344: jnt 106
+    400346: jnt 106_end
+    400348: jnt 107
+    400350: jnt 107_end
+    400352: jnt 108
+    400354: jnt 108_end
+    400356: jnt 109
+    400358: jnt 109_end
+    400360: jnt 110
+    400362: jnt 110_end
+    400364: jnt 111
+    400366: jnt 111_end
+    400368: jnt 112
+    400370: jnt 112_end
+    400372: jnt 113
+    400374: jnt 113_end
+    400376: jnt 114
+    400378: jnt 114_end
+    400380: jnt 115
+    400382: jnt 115_end
+    400384: jnt 116
+    400386: jnt 116_end
+    400388: jnt 117
+    400390: jnt 117_end
+    400392: jnt 118
+    400394: jnt 118_end
+    400396: jnt 119
+    400398: jnt 119_end
+    400400: jnt 120
+    400402: jnt 121
+    400404: jnt 121_end
+    400406: jnt 122
+    400408: jnt 122_end
+    400410: jnt 123
+    400412: jnt 124
+    400414: jnt 124_end
+    400416: jnt 125
+    400418: jnt 125_end
+    400420: jnt 126
+    400422: jnt 126_end
+    400424: jnt 127
+    400426: jnt 127_end
+    400428: jnt 128
+    400430: jnt 128_end
+    400432: jnt 129
+    400434: jnt 129_end
+    400436: jnt 130
+    400438: jnt 130_end
+    400440: jnt 131
+    400442: jnt 131_end
+    400444: jnt 132
+    400446: jnt 132_end
+    400448: jnt 133
+    400450: jnt 133_end
+    400452: jnt 134
+    400454: jnt 135
+    400456: jnt 135_end
+    400458: jnt 136
+    400460: jnt 136_end
+    400462: jnt 137
+    400464: jnt 137_end
+    400466: jnt 138
+    400468: jnt 138_end
+    400470: jnt 139
+    400472: jnt 139_end
+    400474: jnt 140
+    400476: jnt 140_end
+    400478: jnt 141
+    400480: jnt 141_end
+    400482: jnt 142
+    400484: jnt 142_end
+    400486: jnt 143
+    400488: jnt 143_end
+    400490: jnt 144
+    400492: jnt 144_end
+    400494: jnt 145
+    400496: jnt 145_end
+    400498: jnt 146
+    400500: jnt 146_end
+    400502: jnt 147
+    400504: jnt 147_end
+    400506: jnt 148
+    400508: jnt 148_end
+    400510: jnt 149
+    400512: jnt 149_end
+    400514: jnt 150
+    400516: jnt 150_end
+    400518: jnt 151
+    400520: jnt 151_end
+    400522: jnt 152
+    400524: jnt 152_end
+    400526: jnt 153
+    400528: jnt 153_end
+    400530: jnt 154
+    400532: jnt 154_end
+    400534: jnt 155
+    400536: jnt 155_end
+    400538: jnt 156
+    400540: jnt 156_end
+    400542: jnt 157
+    400544: jnt 157_end
+    400546: jnt 158
+    400548: jnt 158_end
+    400550: jnt 159
+    400552: jnt 159_end
+    400554: jnt 160
+    400556: jnt 160_end
+    400558: jnt 161
+    400560: jnt 161_end
+    400562: jnt 162
+    400564: jnt 162_end
+    400566: skeleton 00  object
+    400568: surface 000 ref 0.011
+    400570: surface 000 ref 0.011_end
+    2100000: 4_surface-000-ref-0.002_0.1_16_16
+    2100002: 4_surface-000-ref-0.003_0.1_16_16
+    2100004: 4_surface-000-ref-0.007_0.1_16_16
+    2100006: 4_surface-001-ref-0.004_0.1_16_16
+    2100008: 4_surface-000-ref-0.010_0.1_16_16
+    2100010: 4_surface-000-ref-0.004_0.1_16_16
+    2100012: 4_surface-000-ref-0.006_0.1_16_16
+    2100014: 4_surface-001-ref-0.002_0.1_16_16
+    2100016: 4_surface-001-ref-0.003_0.1_16_16
+    2100018: 4_surface-001-ref-0.005_0.1_16_16
+    2100020: 4_surface-002-ref-0_0.1_16_16
+    2100022: 4_surface-007-ref-0_0.1_16_16
+    2100024: 4_surface-000-ref-0.011_0.1_16_16
+    2100026: 4_surface-000-ref-0_0.1_16_16
+    2100028: 4_surface-001-ref-0.001_0.1_16_16
+    2100030: 4_surface-001-ref-0.006_0.1_16_16
+    2100032: 4_surface-001-ref-0_0.1_16_16
+    2100034: 4_surface-003-ref-0_0.1_16_16
+    2100036: 4_surface-006-ref-0_0.1_16_16
+    2100038: 6_surface-011-ref-0_0.1_16_16
+    2100040: 6_surface-010-ref-0_0.1_16_16
+    2100042: 4_surface-000-ref-0.009_0.1_16_16
+    2100044: 4_surface-000-ref-0.001_0.1_16_16
+    2100046: 4_surface-000-ref-0.005_0.1_16_16
+    2100048: 4_surface-000-ref-0.008_0.1_16_16
+    2100050: 4_surface-004-ref-0_0.1_16_16
+    2100052: 4_surface-005-ref-0_0.1_16_16
+    2100054: 6_surface-008-ref-0_0.1_16_16
+    2100056: 6_surface-009-ref-0_0.1_16_16
+    4300000: 4_surface-000-ref-0.002_0.1_16_16
+    9500000: //RootNode
+    13700000: 4_surface-000-ref-0.002_0.1_16_16
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
