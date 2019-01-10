@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class NeckScript : MonoBehaviour {
-    EnemyHealth EH;
+    private EnemyHealth EH;
+	private Animator anim;
+
 	// Use this for initialization
 	void Start () {
         EH = gameObject.GetComponentInParent<EnemyHealth>();
+		anim = gameObject.GetComponentInParent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -17,6 +20,7 @@ public class NeckScript : MonoBehaviour {
 	{
         if(other.CompareTag("Weapon")){
             EH.getHurt(500);
+			anim.SetInteger("state", 2);
         }
 	}
 }

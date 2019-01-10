@@ -5,11 +5,12 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour {
     float MaxHaelth = 1000;
     float currentHealth = 0;
+    private Animator anim;
     public GameManager GM;
 	// Use this for initialization
 	void Start () {
         currentHealth = MaxHaelth;
-
+        anim = gameObject.GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -22,7 +23,9 @@ public class EnemyHealth : MonoBehaviour {
 
             //do something
             GM.AddScore(100);
-            Destroy(this.gameObject,3.0f);
+            this.gameObject.tag = "Untagged";
+            anim.SetInteger("state", 4);
+            Destroy(this.gameObject,30f);
         }
     }
     public float getHealth(){

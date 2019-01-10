@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using Steam_VR_InteractionSystem;
 
 public class RopeScript : MonoBehaviour {
 
@@ -12,10 +13,23 @@ public class RopeScript : MonoBehaviour {
     public NeckDetector ND;
     Vector3 relaPos;
     public Vector3 NeckPos;
-	// Use this for initialization
-	void Start () {
-        rbody = this.gameObject.GetComponent<Rigidbody>();
-        //conJoint = this.gameObject.GetComponent<ConfigurableJoint>();
+    // Use this for initialization
+    // 1
+    public SteamVR_TrackedObject trackedObj;
+    // 2
+    private SteamVR_Controller.Device Controller
+    {
+        get { return SteamVR_Controller.Input((int)trackedObj.index); }
+    }
+    // void Start () {
+        // rbody = this.gameObject.GetComponent<Rigidbody>();
+        // //conJoint = this.gameObject.GetComponent<ConfigurableJoint>();
+	// }
+	
+	void Awake() 
+	{
+		rbody = this.gameObject.GetComponent<Rigidbody>();
+		
 	}
 	
 	// Update is called once per frame
@@ -29,9 +43,9 @@ public class RopeScript : MonoBehaviour {
         {
             rbody.WakeUp();
             if(ND.findEnemy){
-                rbody.AddForce(1000 * (NeckPos - startPoint.transform.position));
+                rbody.AddForce(10000 * (NeckPos - startPoint.transform.position));
             }else{
-                rbody.AddRelativeForce(1000 * Vector3.forward);
+                rbody.AddRelativeForce(10000 * Vector3.forward);
             }
 
         }else{
@@ -40,7 +54,7 @@ public class RopeScript : MonoBehaviour {
         //if (conJoint.connectedBody == null && !Input.GetKey(KeyCode.X)){
         //    this.transform.position = startPoint.transform.position;
         //}
-        if (Input.GetKeyUp(KeyCode.X))
+        if (Input.GetKeyUp(KeyCode.X)|| Controller.GetHairTriggerUp())
         {
             //conJoint.xMotion = ConfigurableJointMotion.Free;
             //conJoint.yMotion = ConfigurableJointMotion.Free;
@@ -64,7 +78,7 @@ public class RopeScript : MonoBehaviour {
         }
 
         if((transform.parent == null||transform.parent.tag == "Enemy") && relaPos.magnitude > 1f){
-            Vector3 offset = Vector3.up * 20;
+            Vector3 offset = Vector3.up * 0;
             playerRbody.AddForce((relaPos+offset) * 100 * Time.deltaTime);
         }
         if(this.transform.parent != null){

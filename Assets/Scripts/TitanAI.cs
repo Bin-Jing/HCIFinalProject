@@ -5,18 +5,21 @@ using UnityEngine.AI;
 
 public class TitanAI : MonoBehaviour{
     
-    public float wanderRadius;
     public float traceMaxTimeScale;
     private GameObject player;
     private float traceTime;
     private NavMeshAgent agent;
     private Vector3 wanderPoint;
+    private float wanderRadius;
+    private Animator anim;
 
     // Start is called before the first frame update
     void Start(){
         player = GameObject.Find("player");
         agent = GetComponent<NavMeshAgent> ();
         traceTime = 0;
+        wanderRadius = this.transform.localScale.x * 10;
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -34,12 +37,21 @@ public class TitanAI : MonoBehaviour{
             traceTime = traceMaxTimeScale * Time.deltaTime;
         }
         if(traceTime > 0){
-            agent.SetDestination(player.transform.position);
+            Vector3 dir = (player.transform.position - transform.position).normalized * wanderRadius * 0.1f;
+            if(Vector3.Distance(transform.position, player.transform.position) > wanderRadius * 0.2f){
+                agent.SetDestination(player.transform.position - dir);
+                anim.SetInteger("state", 1);
+            }
+            else{
+                anim.SetInteger("state", 3);
+            }
+            
             traceTime -= Time.deltaTime;
         }
         else{
             //print(wanderPoint);
-            if(wanderPoint == Vector3.zero || Vector3.Distance(transform.position, wanderPoint) < 2f){
+            print("dist   " + Vector3.Distance(transform.position, wanderPoint));
+            if(wanderPoint == Vector3.zero || Vector3.Distance(transform.position, wanderPoint) < (wanderRadius * 0.1)){
                 wanderPoint = RandomWanderPoint();
             }
             agent.SetDestination(wanderPoint);
