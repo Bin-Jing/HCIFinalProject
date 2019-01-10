@@ -65,8 +65,20 @@ public class RopeScript : MonoBehaviour {
 
         if((transform.parent == null||transform.parent.tag == "Enemy") && relaPos.magnitude > 1f){
             Vector3 offset = Vector3.up * 20;
-            playerRbody.AddForce((relaPos+offset) * 150 * Time.deltaTime);
+            playerRbody.AddForce((relaPos+offset) * 100 * Time.deltaTime);
         }
+        if(this.transform.parent != null){
+            if (this.transform.parent.CompareTag("Enemy"))
+            {
+                if (this.transform.parent.GetComponent<EnemyHealth>().getHealth() < 0)
+                {
+                    this.transform.parent = null;
+                    rbody.Sleep();
+                    transform.parent = player.transform;
+                }
+            }
+        }
+
 
 	}
 	private void OnCollisionEnter(Collision collision)
@@ -91,5 +103,20 @@ public class RopeScript : MonoBehaviour {
             //conJoint.zMotion = ConfigurableJointMotion.Limited;
         }
 	}
-	
+	private void OnCollisionStay(Collision collision)
+	{
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Neck")
+        {
+            if (collision.gameObject.GetComponent<EnemyHealth>().getHealth() > 0)
+            {
+                transform.parent = collision.transform;
+            }
+            else
+            {
+                transform.parent = null;
+            }
+
+        }
+	}
+
 }

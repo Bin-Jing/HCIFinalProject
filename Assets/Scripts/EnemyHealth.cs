@@ -22,7 +22,6 @@ public class EnemyHealth : MonoBehaviour {
 
             //do something
             GM.AddScore(100);
-            this.gameObject.tag = "Untagged";
             Destroy(this.gameObject,3.0f);
         }
     }

@@ -33,7 +33,7 @@ public class NeckDetector : MonoBehaviour {
                 findEnemy = true;
                 GameObject hitItm = rayPer.GetHitObj()[i];
                 Transform Neck = hitItm.transform.Find("Neck");
-                Vector3 offset = Vector3.up * 20;
+                Vector3 offset = Vector3.up * 1;
                 ropeS.NeckPos = Neck.position+offset;
             }
         }
