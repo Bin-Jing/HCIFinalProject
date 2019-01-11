@@ -15,7 +15,7 @@ public class TitanAI : MonoBehaviour{
 
     // Start is called before the first frame update
     void Start(){
-        player = GameObject.Find("player");
+        player = GameObject.FindWithTag("Player");
         agent = GetComponent<NavMeshAgent> ();
         traceTime = 0;
         wanderRadius = this.transform.localScale.x * 10;
@@ -50,7 +50,7 @@ public class TitanAI : MonoBehaviour{
         }
         else{
             //print(wanderPoint);
-            print("dist   " + Vector3.Distance(transform.position, wanderPoint));
+            //print("dist   " + Vector3.Distance(transform.position, wanderPoint));
             if(wanderPoint == Vector3.zero || Vector3.Distance(transform.position, wanderPoint) < (wanderRadius * 0.1)){
                 wanderPoint = RandomWanderPoint();
             }

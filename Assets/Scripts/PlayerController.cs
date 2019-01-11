@@ -10,12 +10,12 @@ public class PlayerController : MonoBehaviour {
     public GameObject leftRope;
 	
 	// 1
-	public SteamVR_TrackedObject trackedObj;
-	// 2
-	private SteamVR_Controller.Device Controller
-	{
-		get { return SteamVR_Controller.Input((int)trackedObj.index); }
-	}
+	//public SteamVR_TrackedObject trackedObj;
+	//// 2
+	//private SteamVR_Controller.Device Controller
+	//{
+	//	get { return SteamVR_Controller.Input((int)trackedObj.index); }
+	//}
 	
     bool jumpable = true;
     Rigidbody rbody;
@@ -46,9 +46,11 @@ public class PlayerController : MonoBehaviour {
         this.transform.eulerAngles += new Vector3(0,100 * Input.GetAxis("Horizontal") * Time.deltaTime,0);
         this.transform.eulerAngles += new Vector3(-50 * Input.GetAxis("Vertical") * Time.deltaTime,0, 0);
         //Jet
-        if(Input.GetKey(KeyCode.Z) || Controller.GetPressDown(SteamVR_Controller.ButtonMask.Grip)){
-            rbody.AddRelativeForce(10000*Vector3.forward*Time.deltaTime);
-            rbody.AddRelativeForce(50000 * Vector3.up * Time.deltaTime);
+        if(Input.GetKey(KeyCode.Z) 
+           //|| Controller.GetPressDown(SteamVR_Controller.ButtonMask.Grip)
+          ){
+            rbody.AddRelativeForce(4000*Vector3.forward*Time.deltaTime);
+            rbody.AddRelativeForce(2000 * Vector3.up * Time.deltaTime);
         }
         //shoot rope
 

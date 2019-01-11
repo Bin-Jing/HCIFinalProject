@@ -23,9 +23,9 @@ public class EnemyHealth : MonoBehaviour {
 
             //do something
             GM.AddScore(100);
-            this.gameObject.tag = "Untagged";
+            //this.gameObject.tag = "Untagged";
             anim.SetInteger("state", 4);
-            Destroy(this.gameObject,30f);
+            Destroy(this.gameObject,3f);
         }
     }
     public float getHealth(){

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NeckDetector : MonoBehaviour {
     RayPerception rayPer;
-    float rayDistance = 500f;
+    float rayDistance = 100f;
     float[] rayAngles = new float[10];
     string[] detectableObjects = { "Untagged", "Neck" , "Enemy"};
     public RopeScript ropeS;
@@ -33,8 +33,8 @@ public class NeckDetector : MonoBehaviour {
                 findEnemy = true;
                 GameObject hitItm = rayPer.GetHitObj()[i];
                 Transform Neck = hitItm.transform.Find("Neck");
-                Vector3 offset = Vector3.up * 1;
-                ropeS.NeckPos = Neck.position;
+                Vector3 offset = Vector3.up * 3;
+                ropeS.NeckPos = Neck.position-offset;
             }
         }
 

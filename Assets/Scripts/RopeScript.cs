@@ -15,12 +15,12 @@ public class RopeScript : MonoBehaviour {
     public Vector3 NeckPos;
     // Use this for initialization
     // 1
-    public SteamVR_TrackedObject trackedObj;
-    // 2
-    private SteamVR_Controller.Device Controller
-    {
-        get { return SteamVR_Controller.Input((int)trackedObj.index); }
-    }
+    //public SteamVR_TrackedObject trackedObj;
+    //// 2
+    //private SteamVR_Controller.Device Controller
+    //{
+    //    get { return SteamVR_Controller.Input((int)trackedObj.index); }
+    //}
     // void Start () {
         // rbody = this.gameObject.GetComponent<Rigidbody>();
         // //conJoint = this.gameObject.GetComponent<ConfigurableJoint>();
@@ -54,7 +54,9 @@ public class RopeScript : MonoBehaviour {
         //if (conJoint.connectedBody == null && !Input.GetKey(KeyCode.X)){
         //    this.transform.position = startPoint.transform.position;
         //}
-        if (Input.GetKeyUp(KeyCode.X)|| Controller.GetHairTriggerUp())
+        if (Input.GetKeyUp(KeyCode.X)
+            //|| Controller.GetHairTriggerUp()
+           )
         {
             //conJoint.xMotion = ConfigurableJointMotion.Free;
             //conJoint.yMotion = ConfigurableJointMotion.Free;
@@ -78,7 +80,8 @@ public class RopeScript : MonoBehaviour {
         }
 
         if((transform.parent == null||transform.parent.tag == "Enemy") && relaPos.magnitude > 1f){
-            Vector3 offset = Vector3.up * 0;
+            
+            Vector3 offset = Vector3.up * 10;
             playerRbody.AddForce((relaPos+offset) * 100 * Time.deltaTime);
         }
         if(this.transform.parent != null){
@@ -108,7 +111,6 @@ public class RopeScript : MonoBehaviour {
                 }else{
                     transform.parent = null;
                 }
-
             }
             //conJoint.connectedBody = collision.rigidbody;
             //relaPos = this.gameObject.transform.position - startPoint.transform.position;
