@@ -12,10 +12,15 @@ public class TitanAI : MonoBehaviour{
     private Vector3 wanderPoint;
     private float wanderRadius;
     private Animator anim;
+    bool attacking = false;
+    PlayerHealth PH;
+    Rigidbody playerRbody;
 
     // Start is called before the first frame update
     void Start(){
         player = GameObject.FindWithTag("Player");
+        PH = player.GetComponent<PlayerHealth>();
+        playerRbody = player.GetComponent<Rigidbody>();
         agent = GetComponent<NavMeshAgent> ();
         traceTime = 0;
         wanderRadius = this.transform.localScale.x * 10;
@@ -25,6 +30,7 @@ public class TitanAI : MonoBehaviour{
     // Update is called once per frame
     void Update()
     {
+        attacking = false;
         float dist = Vector3.Distance(player.transform.position, this.transform.position);
         Vector3 titanToPlayer = (player.transform.position - this.transform.position);
         Vector3 faceTo = this.transform.forward;
@@ -44,6 +50,7 @@ public class TitanAI : MonoBehaviour{
             }
             else{
                 anim.SetInteger("state", 3);
+                attacking = true;
             }
             
             traceTime -= Time.deltaTime;
@@ -64,4 +71,13 @@ public class TitanAI : MonoBehaviour{
         NavMesh.SamplePosition(randomPoint, out navHit, wanderRadius, -1);
         return new Vector3(navHit.position.x, transform.position.y, navHit.position.z);
     }
+	private void OnTriggerEnter(Collider other)
+	{
+        if(other.CompareTag("Player")&&attacking){
+            print("Hit");
+            PH.getHurt(100);
+            Vector3 relaPos = this.gameObject.transform.localPosition - player.transform.position;
+            playerRbody.AddForce(relaPos * -50000 * Time.deltaTime);
+        }
+	}
 }

@@ -7,10 +7,10 @@ public class GameManager : MonoBehaviour {
     public Text ScoreText;
     public Text PlayerHealthText;
     float Score = 0;
-    public PlayerHealth PH;
+    PlayerHealth PH;
 	// Use this for initialization
 	void Start () {
-		
+        PH = GameObject.FindWithTag("Player").GetComponent<PlayerHealth>();
 	}
 	
 	// Update is called once per frame
