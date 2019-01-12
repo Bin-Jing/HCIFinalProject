@@ -8,26 +8,29 @@ public class PlayerController : MonoBehaviour {
 
     public GameObject rightRope;
     public GameObject leftRope;
-	
-	// 1
-	//public SteamVR_TrackedObject trackedObj;
-	//// 2
-	//private SteamVR_Controller.Device Controller
-	//{
-	//	get { return SteamVR_Controller.Input((int)trackedObj.index); }
-	//}
-	
+    public Transform CameraTransform;
+
+    // 1
+    public SteamVR_TrackedObject trackedObj;
+    //// 2
+    private SteamVR_Controller.Device Controller
+    {
+        get { return SteamVR_Controller.Input((int)trackedObj.index); }
+    }
+
     bool jumpable = true;
     Rigidbody rbody;
     Rigidbody rRopeRbody;
-	// Use this for initialization
-	// void Start () {
-        // rbody = this.gameObject.GetComponent<Rigidbody>();
-        // rRopeRbody = rightRope.GetComponent<Rigidbody>();
-        // jumpable = true;
-	// }
-	
-	void Awake() 
+    //Use this for initialization
+
+    void Start () {
+        rbody = this.gameObject.GetComponent<Rigidbody>();
+        rRopeRbody = rightRope.GetComponent<Rigidbody>();
+        jumpable = true;
+    }
+
+
+    void Awake() 
 	{ 	
 		rbody = this.gameObject.GetComponent<Rigidbody>();
         rRopeRbody = rightRope.GetComponent<Rigidbody>();
@@ -35,21 +38,27 @@ public class PlayerController : MonoBehaviour {
 		
 	}
 	
-	
+    void rotateBody()
+    {
+        this.transform.rotation = Quaternion.Euler(CameraTransform.eulerAngles.x, CameraTransform.eulerAngles.y, 0);
+    }	
 	
 	// Update is called once per frame
 	void Update () {
-		
-		
+        print(CameraTransform.eulerAngles);
+        //rotateBody();    
+        	
         //Character control
         //rbody.AddRelativeForce(1000 * Input.GetAxis("Vertical") * Vector3.forward * Time.deltaTime);
         this.transform.eulerAngles += new Vector3(0,100 * Input.GetAxis("Horizontal") * Time.deltaTime,0);
         this.transform.eulerAngles += new Vector3(-50 * Input.GetAxis("Vertical") * Time.deltaTime,0, 0);
+        this.transform.rotation = Quaternion.Euler(0, this.transform.eulerAngles.y, this.transform.eulerAngles.z);
         //Jet
         if(Input.GetKey(KeyCode.Z) 
-           //|| Controller.GetPressDown(SteamVR_Controller.ButtonMask.Grip)
-          ){
-            rbody.AddRelativeForce(4000*Vector3.forward*Time.deltaTime);
+           || Controller.GetHairTrigger()
+          )
+        {
+            rbody.AddRelativeForce(4000 * (Quaternion.Inverse(transform.rotation) * CameraTransform.forward*Time.deltaTime));
             rbody.AddRelativeForce(2000 * Vector3.up * Time.deltaTime);
         }
         //shoot rope

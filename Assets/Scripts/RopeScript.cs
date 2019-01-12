@@ -13,14 +13,15 @@ public class RopeScript : MonoBehaviour {
     public NeckDetector ND;
     Vector3 relaPos;
     public Vector3 NeckPos;
+    public GameObject controller;
     // Use this for initialization
     // 1
-    //public SteamVR_TrackedObject trackedObj;
+    public SteamVR_TrackedObject trackedObj;
     //// 2
-    //private SteamVR_Controller.Device Controller
-    //{
-    //    get { return SteamVR_Controller.Input((int)trackedObj.index); }
-    //}
+    private SteamVR_Controller.Device Controller
+    {
+        get { return SteamVR_Controller.Input((int)trackedObj.index); }
+    }
     // void Start () {
         // rbody = this.gameObject.GetComponent<Rigidbody>();
         // //conJoint = this.gameObject.GetComponent<ConfigurableJoint>();
@@ -39,23 +40,26 @@ public class RopeScript : MonoBehaviour {
         //    rbody.WakeUp();
         //    rbody.AddRelativeForce(1000 * Vector3.forward);
         //}
-        if (Input.GetKey(KeyCode.X))
+        if (Input.GetKey(KeyCode.X)
+            || Controller.GetHairTrigger())
         {
             rbody.WakeUp();
             if(ND.findEnemy){
                 rbody.AddForce(10000 * (NeckPos - startPoint.transform.position));
             }else{
-                rbody.AddRelativeForce(10000 * Vector3.forward);
+                print("player rotation " + player.transform.rotation + " foward " + controller.transform.forward);
+                rbody.AddRelativeForce(10000 * (player.transform.rotation * controller.transform.forward));
             }
 
         }else{
             this.transform.position = startPoint.transform.position;
+            this.transform.rotation = controller.transform.rotation;
         }
         //if (conJoint.connectedBody == null && !Input.GetKey(KeyCode.X)){
         //    this.transform.position = startPoint.transform.position;
         //}
         if (Input.GetKeyUp(KeyCode.X)
-            //|| Controller.GetHairTriggerUp()
+            || Controller.GetHairTriggerUp()
            )
         {
             //conJoint.xMotion = ConfigurableJointMotion.Free;
@@ -80,7 +84,7 @@ public class RopeScript : MonoBehaviour {
         }
 
         if((transform.parent == null||transform.parent.tag == "Enemy") && relaPos.magnitude > 1f){
-            
+
             Vector3 offset = Vector3.up * 10;
             playerRbody.AddForce((relaPos+offset) * 100 * Time.deltaTime);
         }
@@ -102,7 +106,7 @@ public class RopeScript : MonoBehaviour {
 	{
         if((collision.gameObject.tag == "Untagged" 
             || collision.gameObject.tag == "Enemy" 
-            || collision.gameObject.tag == "Neck") && Input.GetKey(KeyCode.X)){
+            || collision.gameObject.tag == "Neck") && (Input.GetKey(KeyCode.X) || Controller.GetHairTrigger())){
             rbody.constraints = RigidbodyConstraints.FreezeAll;
             transform.parent = null;
             if(collision.gameObject.tag == "Enemy"|| collision.gameObject.tag == "Neck"){
