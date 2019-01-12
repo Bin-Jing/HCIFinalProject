@@ -47,8 +47,8 @@ public class RopeScript : MonoBehaviour {
             if(ND.findEnemy){
                 rbody.AddForce(10000 * (NeckPos - startPoint.transform.position));
             }else{
-                print("player rotation " + player.transform.rotation + " foward " + controller.transform.forward);
-                rbody.AddRelativeForce(10000 * (player.transform.rotation * controller.transform.forward));
+
+                rbody.AddRelativeForce(10000 * (Quaternion.Inverse(player.transform.rotation) * controller.transform.forward));
             }
 
         }else{
@@ -85,7 +85,7 @@ public class RopeScript : MonoBehaviour {
 
         if((transform.parent == null||transform.parent.tag == "Enemy") && relaPos.magnitude > 1f){
 
-            Vector3 offset = Vector3.up * 10;
+            Vector3 offset = Vector3.up * 20;
             playerRbody.AddForce((relaPos+offset) * 100 * Time.deltaTime);
         }
         if(this.transform.parent != null){

@@ -8,8 +8,7 @@ public class PlayerController : MonoBehaviour {
 
     public GameObject rightRope;
     public GameObject leftRope;
-    public Transform CameraTransform;
-
+    public GameObject body;
     // 1
     public SteamVR_TrackedObject trackedObj;
     //// 2
@@ -37,29 +36,21 @@ public class PlayerController : MonoBehaviour {
         jumpable = true;
 		
 	}
-	
-    void rotateBody()
-    {
-        this.transform.rotation = Quaternion.Euler(CameraTransform.eulerAngles.x, CameraTransform.eulerAngles.y, 0);
-    }	
-	
+
 	// Update is called once per frame
-	void Update () {
-        print(CameraTransform.eulerAngles);
-        //rotateBody();    
-        	
+	void Update () { 	
         //Character control
         //rbody.AddRelativeForce(1000 * Input.GetAxis("Vertical") * Vector3.forward * Time.deltaTime);
         this.transform.eulerAngles += new Vector3(0,100 * Input.GetAxis("Horizontal") * Time.deltaTime,0);
         this.transform.eulerAngles += new Vector3(-50 * Input.GetAxis("Vertical") * Time.deltaTime,0, 0);
-        this.transform.rotation = Quaternion.Euler(0, this.transform.eulerAngles.y, this.transform.eulerAngles.z);
+        //this.transform.rotation = Quaternion.Euler(0, this.transform.eulerAngles.y, this.transform.eulerAngles.z);
         //Jet
         if(Input.GetKey(KeyCode.Z) 
            || Controller.GetHairTrigger()
           )
         {
-            rbody.AddRelativeForce(4000 * (Quaternion.Inverse(transform.rotation) * CameraTransform.forward*Time.deltaTime));
-            rbody.AddRelativeForce(2000 * Vector3.up * Time.deltaTime);
+            rbody.AddForce(1500 * (body.transform.forward * Time.deltaTime));
+            rbody.AddForce(4000 * Vector3.up * Time.deltaTime);
         }
         //shoot rope
 
