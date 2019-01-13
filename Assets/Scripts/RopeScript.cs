@@ -14,6 +14,8 @@ public class RopeScript : MonoBehaviour {
     Vector3 relaPos;
     public Vector3 NeckPos;
     public GameObject controller;
+
+    public int forceRate;
     // Use this for initialization
     // 1
     public SteamVR_TrackedObject trackedObj;
@@ -85,8 +87,8 @@ public class RopeScript : MonoBehaviour {
 
         if((transform.parent == null||transform.parent.tag == "Enemy") && relaPos.magnitude > 1f){
 
-            Vector3 offset = Vector3.up * 20;
-            playerRbody.AddForce((relaPos+offset) * 100 * Time.deltaTime);
+            Vector3 offset = Vector3.up * 50;
+            playerRbody.AddForce((relaPos+offset) * forceRate * Time.deltaTime);
         }
         if(this.transform.parent != null){
             if (this.transform.parent.CompareTag("Enemy"))

@@ -16,8 +16,8 @@ public class rotationBody : MonoBehaviour {
 	void Update () {
         Vector3 rightDir = rightHand.localPosition - cameraTransform.localPosition;
         Vector3 leftDir = leftHand.localPosition - cameraTransform.localPosition;
-        Vector3 mergeDir = (rightDir + leftDir) * 10;
-        this.transform.rotation = Quaternion.LookRotation((new Vector3(mergeDir.x, 0, mergeDir.z)));
+        Vector3 mergeDir = (rightDir + leftDir);
+        this.transform.rotation = Quaternion.LookRotation((new Vector3(mergeDir.x, 0, mergeDir.z)).normalized);
         //transform.rotation *= Quaternion.AngleAxis(-90f/*this might need to be positive*/, transform.forward);
     }
 }
