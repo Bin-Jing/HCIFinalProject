@@ -32,8 +32,7 @@ public class RopeScript : MonoBehaviour {
 	void Awake() 
 	{
 		rbody = this.gameObject.GetComponent<Rigidbody>();
-		
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -42,6 +41,10 @@ public class RopeScript : MonoBehaviour {
         //    rbody.WakeUp();
         //    rbody.AddRelativeForce(1000 * Vector3.forward);
         //}
+        if (Controller.GetHairTriggerDown()) {
+            playerRbody.AddForce((Quaternion.Inverse(player.transform.rotation) * controller.transform.forward) * -50000 * Time.deltaTime);
+        }
+
         if (Input.GetKey(KeyCode.X)
             || Controller.GetHairTrigger())
         {

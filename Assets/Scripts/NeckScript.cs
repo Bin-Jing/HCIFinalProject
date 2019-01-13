@@ -9,7 +9,7 @@ public class NeckScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         EH = gameObject.GetComponentInParent<EnemyHealth>();
-		anim = gameObject.GetComponentInParent<Animator>();
+		anim = GetComponentInParent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -20,7 +20,6 @@ public class NeckScript : MonoBehaviour {
 	{
         if(other.CompareTag("Weapon")){
             EH.getHurt(500);
-			anim.SetInteger("state", 2);
         }
 	}
 }

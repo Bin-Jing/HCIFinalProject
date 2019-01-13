@@ -42,11 +42,12 @@ public class TitanAI : MonoBehaviour{
         if(dist < wanderRadius && verticalAngle < 60f){
             traceTime = traceMaxTimeScale * Time.deltaTime;
         }
-        if(traceTime > 0){
+        
+        if (traceTime > 0){
             Vector3 dir = (player.transform.position - transform.position).normalized * wanderRadius * 0.1f;
             if(Vector3.Distance(transform.position, player.transform.position) > wanderRadius * 0.2f){
                 agent.SetDestination(player.transform.position - dir);
-                anim.SetInteger("state", 1);
+                StartCoroutine(WaitAttackStop());
             }
             else{
                 anim.SetInteger("state", 3);
@@ -80,4 +81,18 @@ public class TitanAI : MonoBehaviour{
             playerRbody.AddForce(relaPos * -50000 * Time.deltaTime);
         }
 	}
+
+    IEnumerator WaitAttackStop()
+    {
+        yield return null;
+        AnimatorStateInfo stateinfo = anim.GetCurrentAnimatorStateInfo(0);
+        if (stateinfo.IsTag("attack") && (stateinfo.normalizedTime > 1.0f))
+        {
+            anim.SetInteger("state", 1);
+        }
+        else
+        {
+            StartCoroutine(WaitAttackStop());
+        }
+    }
 }
