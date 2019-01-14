@@ -16,18 +16,9 @@ public class RopeScript : MonoBehaviour {
     public GameObject controller;
 
     public int forceRate;
-    // Use this for initialization
-    // 1
-    public SteamVR_TrackedObject trackedObj;
-    //// 2
-    private SteamVR_Controller.Device Controller
-    {
-        get { return SteamVR_Controller.Input((int)trackedObj.index); }
-    }
-    // void Start () {
-        // rbody = this.gameObject.GetComponent<Rigidbody>();
-        // //conJoint = this.gameObject.GetComponent<ConfigurableJoint>();
-	// }
+
+    public ControllerScript leftHand;
+    public ControllerScript rightHand;
 	
 	void Awake() 
 	{
@@ -41,12 +32,14 @@ public class RopeScript : MonoBehaviour {
         //    rbody.WakeUp();
         //    rbody.AddRelativeForce(1000 * Vector3.forward);
         //}
-        if (Controller.GetHairTriggerDown()) {
+        if (rightHand.Controller.GetHairTriggerDown()) {
+            rightHand.Shake(500);
+            leftHand.Shake(500);
             playerRbody.AddForce((Quaternion.Inverse(player.transform.rotation) * controller.transform.forward) * -50000 * Time.deltaTime);
         }
 
         if (Input.GetKey(KeyCode.X)
-            || Controller.GetHairTrigger())
+            || rightHand.Controller.GetHairTrigger())
         {
             rbody.WakeUp();
             if(ND.findEnemy){
@@ -64,7 +57,7 @@ public class RopeScript : MonoBehaviour {
         //    this.transform.position = startPoint.transform.position;
         //}
         if (Input.GetKeyUp(KeyCode.X)
-            || Controller.GetHairTriggerUp()
+            || rightHand.Controller.GetHairTriggerUp()
            )
         {
             //conJoint.xMotion = ConfigurableJointMotion.Free;
@@ -111,7 +104,7 @@ public class RopeScript : MonoBehaviour {
 	{
         if((collision.gameObject.tag == "Untagged" 
             || collision.gameObject.tag == "Enemy" 
-            || collision.gameObject.tag == "Neck") && (Input.GetKey(KeyCode.X) || Controller.GetHairTrigger())){
+            || collision.gameObject.tag == "Neck") && (Input.GetKey(KeyCode.X) || rightHand.Controller.GetHairTrigger())){
             rbody.constraints = RigidbodyConstraints.FreezeAll;
             transform.parent = null;
             if(collision.gameObject.tag == "Enemy"|| collision.gameObject.tag == "Neck"){
