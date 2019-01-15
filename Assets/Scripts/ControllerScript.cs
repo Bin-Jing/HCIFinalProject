@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ControllerScript : MonoBehaviour {
 
+    private int interval;
+    private ushort amplitude;
+
     private SteamVR_TrackedObject trackedObj
     {
         get { return this.GetComponent<SteamVR_TrackedObject>();  }
@@ -14,9 +17,10 @@ public class ControllerScript : MonoBehaviour {
         get { return SteamVR_Controller.Input((int)trackedObj.index); }
     }
 
-    public void Shake(ushort interval)
+    public void Shake(ushort _amplitude, int _interval)
     {
-        SteamVR_Controller.Input((int)trackedObj.index).TriggerHapticPulse(interval);
+        interval = _interval;
+        amplitude = _amplitude;
     }
 
     // Use this for initialization
@@ -26,6 +30,9 @@ public class ControllerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (interval != 0) {
+            SteamVR_Controller.Input((int)trackedObj.index).TriggerHapticPulse(amplitude);
+            interval -= 1;
+        }	
 	}
 }

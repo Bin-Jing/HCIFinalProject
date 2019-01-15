@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour {
-    float MaxHaelth = 200;
+    float MaxHaelth = 1000;
     float currentHealth = 0;
     private Animator anim;
     public GameManager GM;

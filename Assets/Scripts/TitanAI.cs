@@ -13,6 +13,7 @@ public class TitanAI : MonoBehaviour{
     private float wanderRadius;
     private Animator anim;
     bool attacking = false;
+    private int attackCD;
     PlayerHealth PH;
     Rigidbody playerRbody;
 
@@ -25,12 +26,16 @@ public class TitanAI : MonoBehaviour{
         traceTime = 0;
         wanderRadius = this.transform.localScale.x * 10;
         anim = GetComponent<Animator>();
+        attackCD = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         attacking = false;
+        if (attackCD != 0) {
+            attackCD -= 1;
+        }
         float dist = Vector3.Distance(player.transform.position, this.transform.position);
         Vector3 titanToPlayer = (player.transform.position - this.transform.position);
         Vector3 faceTo = this.transform.forward;
@@ -74,11 +79,14 @@ public class TitanAI : MonoBehaviour{
     }
 	private void OnTriggerEnter(Collider other)
 	{
-        if(other.CompareTag("Player")&&attacking){
-            print("Hit");
-            PH.getHurt(100);
+        if (other.CompareTag("Player") && attacking) {
             Vector3 relaPos = this.gameObject.transform.localPosition - player.transform.position;
             playerRbody.AddForce(relaPos * -50000 * Time.deltaTime);
+        }
+        if (other.CompareTag("Weapon") && attackCD == 0) {
+            other.transform.parent.gameObject.GetComponent<ControllerScript>().Shake(500, 60);
+            PH.getHurt(200);
+            attackCD = 300;
         }
 	}
 

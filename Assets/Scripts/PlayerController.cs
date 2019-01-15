@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour {
     // 1
     public SteamVR_TrackedObject trackedObj;
     //// 2
+
+    private Quaternion rotation;
     private SteamVR_Controller.Device Controller
     {
         get { return SteamVR_Controller.Input((int)trackedObj.index); }
@@ -26,6 +28,8 @@ public class PlayerController : MonoBehaviour {
         rbody = this.gameObject.GetComponent<Rigidbody>();
         rRopeRbody = rightRope.GetComponent<Rigidbody>();
         jumpable = true;
+        rotation = transform.rotation;
+
     }
 
 
@@ -38,7 +42,8 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () { 	
+	void Update () {
+        transform.rotation = Quaternion.Euler(rotation.eulerAngles.x, rotation.eulerAngles.y, rotation.eulerAngles.z);
         //Character control
         //rbody.AddRelativeForce(1000 * Input.GetAxis("Vertical") * Vector3.forward * Time.deltaTime);
         this.transform.eulerAngles += new Vector3(0,100 * Input.GetAxis("Horizontal") * Time.deltaTime,0);

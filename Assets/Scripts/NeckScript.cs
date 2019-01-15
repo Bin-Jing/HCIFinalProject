@@ -6,9 +6,6 @@ public class NeckScript : MonoBehaviour {
     private EnemyHealth EH;
 	private Animator anim;
 
-    public ControllerScript leftHand;
-    public ControllerScript rightHand;
-
 	// Use this for initialization
 	void Start () {
         EH = gameObject.GetComponentInParent<EnemyHealth>();
@@ -24,7 +21,8 @@ public class NeckScript : MonoBehaviour {
         if(other.CompareTag("Weapon")){
 
             // shake VR controller
-            other.transform.parent.gameObject.GetComponent<ControllerScript>().Shake(500);
+            other.transform.parent.gameObject.GetComponent<ControllerScript>().Shake(1000, 150);
+            print(other.transform.parent);
 
             EH.getHurt(500);
         }
