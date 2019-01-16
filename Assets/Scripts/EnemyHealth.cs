@@ -4,17 +4,31 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour {
     float MaxHaelth = 1000;
-    float currentHealth = 0;
+    public float currentHealth = 0;
     private Animator anim;
     public GameManager GM;
-	// Use this for initialization
-	void Start () {
+    public GameObject deathSteam;
+    private Color alphaColor;
+    private float timeToFade = 300.0f;
+    private int deathCount;
+
+    // Use this for initialization
+    void Start () {
         currentHealth = MaxHaelth;
         anim = GetComponent<Animator>();
+        alphaColor = GetComponentInChildren<SkinnedMeshRenderer>().material.color;
+        alphaColor.a = 0;
+        deathCount = 0;
     }
 	
 	// Update is called once per frame
 	void Update () {
+        if (deathCount > 0) {
+            if (deathCount < 270){
+                transform.position -= Vector3.up * 0.1f;
+            }
+            deathCount -= 1;
+        }
 		
 	}
     public void getHurt(float damage){
@@ -30,7 +44,9 @@ public class EnemyHealth : MonoBehaviour {
             GetComponent<TitanAI>().enabled = false;
             GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
             GetComponent<CapsuleCollider>().enabled = false;
-            Destroy(this.gameObject, 30f);
+            deathSteam.SetActive(true);
+            deathCount = 450;
+            Destroy(this.gameObject, 15f);
         }
         else {
             anim.SetInteger("state", 2);

@@ -4,10 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
-    public Text ScoreText;
-    public Text PlayerHealthText;
+
     float Score = 0;
     PlayerHealth PH;
+    GameObject[] enemys;
+    public GameObject Victory;
+
 	// Use this for initialization
 	void Start () {
         PH = GameObject.FindWithTag("Player").GetComponent<PlayerHealth>();
@@ -15,8 +17,11 @@ public class GameManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        ScoreText.text = "Score: "+ Score;
-        PlayerHealthText.text = "Health: " + PH.getHealth();
+        enemys = GameObject.FindGameObjectsWithTag("Enemy");
+        if (enemys.Length == 0) {
+            Victory.SetActive(true);
+        }
+
 	}
     public void AddScore(float score){
         Score += score;

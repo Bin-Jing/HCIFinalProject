@@ -36,7 +36,7 @@ public class RopeScript : MonoBehaviour {
         //    rbody.AddRelativeForce(1000 * Vector3.forward);
         //}
         if (rightHand.Controller.GetHairTriggerDown()) {
-            playerRbody.AddForce((Quaternion.Inverse(player.transform.rotation) * controller.transform.forward) * -50000 * Time.deltaTime);
+            playerRbody.AddForce((Quaternion.Inverse(player.transform.rotation) * controller.transform.forward) * -5000 * 8 * Time.deltaTime);
         }
 
         if ((Input.GetKey(KeyCode.X)

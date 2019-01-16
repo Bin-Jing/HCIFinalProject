@@ -44,7 +44,7 @@ public class TitanAI : MonoBehaviour{
         float verticalAngle = Mathf.Acos(Vector3.Dot(titanToPlayerVertical.normalized, faceTo.normalized)) * Mathf.Rad2Deg;
         //print("dist" + dist);
         //print("verticalAngle" + verticalAngle);
-        if(dist < wanderRadius && verticalAngle < 60f){
+        if(dist < wanderRadius && verticalAngle < 120f){
             traceTime = traceMaxTimeScale * Time.deltaTime;
         }
         
@@ -58,7 +58,6 @@ public class TitanAI : MonoBehaviour{
                 anim.SetInteger("state", 3);
                 attacking = true;
             }
-            
             traceTime -= Time.deltaTime;
         }
         else{
