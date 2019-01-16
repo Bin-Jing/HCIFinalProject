@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour {
     float MaxHaelth = 1000;
-    float currentHealth = 0;
+    public  float currentHealth = 0;
     public GameManager GM;
     public GameObject GameOver;
+    public Image img;
     // Use this for initialization
     void Start()
     {
@@ -18,7 +20,7 @@ public class PlayerHealth : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
+        img.fillAmount = currentHealth / MaxHaelth;
     }
     public void getHurt(float damage)
     {

@@ -19,10 +19,13 @@ public class RopeScript : MonoBehaviour {
 
     public ControllerScript leftHand;
     public ControllerScript rightHand;
-	
-	void Awake() 
+
+    private bool captain;
+
+    void Awake() 
 	{
 		rbody = this.gameObject.GetComponent<Rigidbody>();
+        captain = true;
     }
 	
 	// Update is called once per frame
@@ -33,14 +36,12 @@ public class RopeScript : MonoBehaviour {
         //    rbody.AddRelativeForce(1000 * Vector3.forward);
         //}
         if (rightHand.Controller.GetHairTriggerDown()) {
-            rightHand.Shake(500);
-            leftHand.Shake(500);
-            playerRbody.AddForce((Quaternion.Inverse(player.transform.rotation) * controller.transform.forward) * -50000 * Time.deltaTime);
+            playerRbody.AddForce((Quaternion.Inverse(player.transform.rotation) * controller.transform.forward) * -5000 * 8 * Time.deltaTime);
         }
 
-        if (Input.GetKey(KeyCode.X)
-            || rightHand.Controller.GetHairTrigger())
-        {
+        if ((Input.GetKey(KeyCode.X)
+            || rightHand.Controller.GetHairTrigger()) && captain){
+
             rbody.WakeUp();
             if(ND.findEnemy){
                 rbody.AddForce(10000 * (NeckPos - startPoint.transform.position));
@@ -57,14 +58,23 @@ public class RopeScript : MonoBehaviour {
         //    this.transform.position = startPoint.transform.position;
         //}
         if (Input.GetKeyUp(KeyCode.X)
-            || rightHand.Controller.GetHairTriggerUp()
+            || rightHand.Controller.GetHairTriggerUp() || (Vector3.Distance(player.transform.position, transform.position) >= 1500)
            )
         {
+
+            if (Input.GetKeyUp(KeyCode.X)
+                    || rightHand.Controller.GetHairTriggerUp())
+            {
+                captain = true;
+            }
+            else {
+                captain = false;
+            }
             //conJoint.xMotion = ConfigurableJointMotion.Free;
             //conJoint.yMotion = ConfigurableJointMotion.Free;
             //conJoint.zMotion = ConfigurableJointMotion.Free;
             //conJoint.connectedBody = null;
-            rbody.Sleep();
+                rbody.Sleep();
             rbody.constraints = RigidbodyConstraints.FreezeRotation;
             transform.parent = player.transform;
 

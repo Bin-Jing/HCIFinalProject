@@ -755,22 +755,6 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: jnt 005
-      humanName: Neck
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: jnt 103
-      humanName: Head
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
     - boneName: jnt 015
       humanName: LeftShoulder
       limit:
@@ -1115,6 +1099,22 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
+    - boneName: jnt 004
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jnt 005
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
     skeleton:
     - name: GreatFemale(Clone)
       parentName: 
@@ -1164,7 +1164,7 @@ ModelImporter:
     - name: jnt 005
       parentName: jnt 004
       position: {x: -1.6286904e-10, y: 0.0020739548, z: -0.00050757965}
-      rotation: {x: -0.33163565, y: -0.048537854, z: -0.11365652, w: 0.9352776}
+      rotation: {x: -0.06591434, y: 0.01442322, z: -0.015189462, w: 0.9976055}
       scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: jnt 025
       parentName: jnt 005

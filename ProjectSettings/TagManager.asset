@@ -8,6 +8,7 @@ TagManager:
   - Neck
   - Enemy
   - Weapon
+  - boundary
   layers:
   - Default
   - TransparentFX
@@ -44,4 +45,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: higher
+    uniqueID: 3532970769
     locked: 0
