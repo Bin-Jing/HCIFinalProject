@@ -8,6 +8,8 @@ public class EnemyHealth : MonoBehaviour {
     private Animator anim;
     public GameManager GM;
     public GameObject deathSteam;
+    public AudioClip groaning;
+
     private Color alphaColor;
     private float timeToFade = 300.0f;
     private int deathCount;
@@ -61,6 +63,9 @@ public class EnemyHealth : MonoBehaviour {
     {
         if (other.CompareTag("Weapon"))
         {
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.clip = groaning;
+            audio.Play();
             getHurt(20);
         }
     }

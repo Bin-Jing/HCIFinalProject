@@ -36,6 +36,7 @@ public class RopeScript : MonoBehaviour {
         //    rbody.AddRelativeForce(1000 * Vector3.forward);
         //}
         if (rightHand.Controller.GetHairTriggerDown()) {
+            GetComponent<AudioSource>().Play();
             playerRbody.AddForce((Quaternion.Inverse(player.transform.rotation) * controller.transform.forward) * -5000 * 8 * Time.deltaTime);
         }
 

@@ -6,6 +6,10 @@ using UnityEngine.AI;
 public class TitanAI : MonoBehaviour{
     
     public float traceMaxTimeScale;
+    public AudioClip walkingAudio;
+    public AudioClip attackAudio;
+
+
     private GameObject player;
     private float traceTime;
     private NavMeshAgent agent;
@@ -56,6 +60,9 @@ public class TitanAI : MonoBehaviour{
             }
             else{
                 anim.SetInteger("state", 3);
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = attackAudio;
+                audio.Play();
                 attacking = true;
             }
             traceTime -= Time.deltaTime;
@@ -96,6 +103,9 @@ public class TitanAI : MonoBehaviour{
         if (stateinfo.IsTag("attack") && (stateinfo.normalizedTime > 1.0f))
         {
             anim.SetInteger("state", 1);
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.clip = walkingAudio;
+            audio.Play();
         }
         else
         {
