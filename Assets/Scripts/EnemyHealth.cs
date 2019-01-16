@@ -9,6 +9,7 @@ public class EnemyHealth : MonoBehaviour {
     public GameManager GM;
     public GameObject deathSteam;
     public AudioClip groaning;
+    public AudioClip air;
 
     private Color alphaColor;
     private float timeToFade = 300.0f;
@@ -40,6 +41,10 @@ public class EnemyHealth : MonoBehaviour {
         {
 
             //do something
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.loop = false;
+            audio.clip = air;
+            audio.Play();
             GM.AddScore(100);
             this.gameObject.tag = "Untagged";
             anim.SetInteger("state", 4);
